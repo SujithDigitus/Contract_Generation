@@ -129,7 +129,7 @@ Return a single, valid JSON object with the following exact structure. Crucially
 
 ```json
 {{
-  "Template": "<The full input text, with ONLY THE VALUE PARTS of identified information replaced by their respective placeholders. Labels that preceded values in the original text must remain as static text in the template. Example: 'This Agreement (the “Agreement”) is entered into by and between First_Party_Legal_Name (“Party A”) and Second_Party_Legal_Name (“Party B”), effective as of Agreement_Effective_Date. The primary services to be rendered are detailed in Service_Description_Paragraph. All notices shall be sent to Notice_Recipient_Email_Address. List of Attachments: List_Of_Attachment_Names.'>",
+  "Template": "<The full input text, with ONLY THE VALUE PARTS of identified information replaced by their respective placeholders. Labels that preceded values in the original text must remain as static text in the template. Example: 'This Agreement (the "Agreement") is entered into by and between First_Party_Legal_Name ("Party A") and Second_Party_Legal_Name ("Party B"), effective as of Agreement_Effective_Date. The primary services to be rendered are detailed in Service_Description_Paragraph. All notices shall be sent to Notice_Recipient_Email_Address. List of Attachments: List_Of_Attachment_Names.'>",
   "Placeholders": {{
     "Example_Contract_Party_Name": {{
       "description": "The full legal name of a contracting party.",
@@ -184,6 +184,194 @@ Input context:
     print(f"--- DEBUG (rag_pipeline_with_prompt): After strip_markdown_json (first 100 chars): '{cleaned_result_str[:100]}'")
     
     return cleaned_result_str
+
+def generate_contract_from_template(template: str, placeholders_dict: dict) -> str:
+    """
+    Generates a final contract by replacing placeholders in the template with actual values.
+    
+    Args:
+        template (str): The contract template with placeholders
+        placeholders_dict (dict): Dictionary mapping placeholder names to their replacement values
+    
+    Returns:
+        str: The final contract with all placeholders replaced
+    """
+    final_contract = template
+    
+    print("--- DEBUG (generate_contract_from_template): Starting placeholder replacement...")
+    
+    for placeholder_name, placeholder_info in placeholders_dict.items():
+        # Get the actual value to replace with
+        if isinstance(placeholder_info, dict) and 'value' in placeholder_info:
+            replacement_value = placeholder_info['value']
+        elif isinstance(placeholder_info, dict) and 'original_value' in placeholder_info:
+            replacement_value = placeholder_info['original_value']
+        else:
+            replacement_value = str(placeholder_info)
+        
+        # Replace the placeholder in the template
+        final_contract = final_contract.replace(placeholder_name, replacement_value)
+        print(f"--- DEBUG: Replaced {placeholder_name} with: {replacement_value[:50]}...")
+    
+    print("--- DEBUG (generate_contract_from_template): Placeholder replacement completed")
+    return final_contract
+
+def interactive_contract_modifier(current_contract: str, modification_request: str) -> str:
+    """
+    Uses Gemini LLM to interactively modify contract sections based on user requests.
+    This function works on the FINAL generated contract (after placeholders have been filled).
+    Allows users to add, remove, or modify specific sections of the contract.
+    
+    Args:
+        current_contract (str): The current fully generated contract text (with placeholders filled)
+        modification_request (str): User's request for modifications (e.g., "Add a confidentiality section", 
+                                  "Remove the penalty clause", "Modify the payment terms to include quarterly payments")
+    
+    Returns:
+        str: The modified contract text
+    """
+    # Initialize the LLM with Gemini
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-preview-04-17", temperature=0.1, convert_system_message_to_human=True)
+
+    modification_template = """
+You are an expert contract modification assistant. Your task is to intelligently modify a contract based on the user's specific request while maintaining legal coherence, professional language, and proper contract structure.
+
+**MODIFICATION INSTRUCTIONS:**
+
+1. **Analyze the Request**: Carefully understand what the user wants to:
+   - ADD: Insert new sections, clauses, or terms
+   - REMOVE: Delete specific sections, clauses, or terms
+   - MODIFY: Change existing content, terms, or conditions
+
+2. **Maintain Contract Integrity**: 
+   - Preserve the overall structure and flow of the contract
+   - Ensure all modifications use appropriate legal language
+   - Keep consistent formatting and style with the existing contract
+   - Maintain logical section numbering if present
+
+3. **Smart Modifications**:
+   - For ADDITIONS: Insert new content in the most appropriate location within the contract structure
+   - For REMOVALS: Clean up any references to removed sections and adjust numbering if needed
+   - For MODIFICATIONS: Update the specified content while preserving the intent and legal validity
+
+4. **Legal Considerations**:
+   - Ensure modifications are legally sound and properly worded
+   - Maintain consistency with other contract terms
+   - Use standard legal terminology and phrasing
+   - Preserve essential contract elements (parties, consideration, terms, etc.)
+
+5. **Output Requirements**:
+   - Return ONLY the complete modified contract text
+   - Do not include explanations, comments, or additional text
+   - Preserve all original formatting, spacing, and structure where not modified
+   - Ensure the final contract is coherent and professionally formatted
+
+**Current Contract:**
+{current_contract}
+
+**User's Modification Request:**
+{modification_request}
+
+**CRITICAL**: Respond with ONLY the complete modified contract text. No explanations, comments, or additional text should be included.
+"""
+
+    prompt = PromptTemplate(
+        template=modification_template,
+        input_variables=["current_contract", "modification_request"]
+    )
+
+    # Define the modification chain
+    modification_chain = (
+        {"current_contract": itemgetter("current_contract"), "modification_request": itemgetter("modification_request")}
+        | prompt
+        | llm
+        | StrOutputParser()
+    )
+
+    # Invoke the chain
+    print("--- DEBUG (interactive_contract_modifier): About to invoke LLM chain with Gemini for contract modification...")
+    print(f"--- DEBUG (interactive_contract_modifier): Modification request: '{modification_request[:100]}...'")
+    
+    result_str = modification_chain.invoke({
+        "current_contract": current_contract,
+        "modification_request": modification_request
+    })
+    
+    print(f"--- DEBUG (interactive_contract_modifier): Gemini LLM chain returned modified contract (first 100 chars): '{str(result_str)[:100]}'")
+    
+    # Clean any potential markdown formatting
+    cleaned_result = strip_markdown_json(result_str)
+    
+    return cleaned_result
+
+def batch_contract_modifications(current_contract: str, modification_requests: list) -> str:
+    """
+    Applies multiple modifications to a contract in sequence.
+    This works on the FINAL generated contract (after placeholders have been filled).
+    
+    Args:
+        current_contract (str): The initial fully generated contract text (with placeholders filled)
+        modification_requests (list): List of modification requests to apply in order
+    
+    Returns:
+        str: The final modified contract after all modifications
+    """
+    modified_contract = current_contract
+    
+    for i, request in enumerate(modification_requests):
+        print(f"--- DEBUG (batch_contract_modifications): Applying modification {i+1}/{len(modification_requests)}")
+        modified_contract = interactive_contract_modifier(modified_contract, request)
+    
+    return modified_contract
+
+def get_contract_sections_summary(contract_text: str) -> str:
+    """
+    Uses Gemini LLM to analyze and summarize the main sections of a contract.
+    Useful for users to understand what sections are available for modification.
+    
+    Args:
+        contract_text (str): The contract text to analyze
+    
+    Returns:
+        str: A summary of the contract's main sections and their purposes
+    """
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-preview-04-17", temperature=0, convert_system_message_to_human=True)
+
+    summary_template = """
+You are a contract analysis expert. Analyze the provided contract and create a clear, concise summary of its main sections and their purposes. This will help users understand the contract structure for potential modifications.
+
+**Instructions:**
+1. Identify all major sections, clauses, and subsections in the contract
+2. Provide a brief description of what each section covers
+3. Use a clear, numbered or bulleted format
+4. Focus on the key areas that users might want to modify
+5. Keep descriptions concise but informative
+
+**Contract Text:**
+{contract_text}
+
+**Required Output Format:**
+Provide a structured summary like this:
+
+CONTRACT SECTIONS SUMMARY:
+1. [Section Name] - [Brief description of what this section covers]
+2. [Section Name] - [Brief description of what this section covers]
+...
+
+Include any notable clauses, terms, or special provisions that users might want to modify.
+"""
+
+    prompt = PromptTemplate(
+        template=summary_template,
+        input_variables=["contract_text"]
+    )
+
+    chain = prompt | llm | StrOutputParser()
+    
+    print("--- DEBUG (get_contract_sections_summary): Analyzing contract sections...")
+    result = chain.invoke({"contract_text": contract_text})
+    
+    return result.strip()
 
 def get_text_from_Pdf(file_path: str) -> str:
     """
@@ -286,3 +474,236 @@ Produce the HTML output now.
         escaped_plain_text = plain_text_content.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         return f"<!DOCTYPE html><html><head><title>Formatted Document (Fallback)</title><style>body{{font-family:sans-serif;}} pre{{white-space:pre-wrap;}}</style></head><body><pre>{escaped_plain_text}</pre></body></html>"
 
+
+# # Complete workflow example for contract generation and modification
+# def complete_contract_workflow_example():
+#     """
+#     Complete example showing the full workflow:
+#     1. Extract template and placeholders from source
+#     2. Fill placeholders to generate final contract
+#     3. Interactively modify the generated contract
+#     """
+#     print("=== Complete Contract Generation and Modification Workflow ===\n")
+    
+#     # Step 1: Simulate extracting template from a source document
+#     print("1. EXTRACTING TEMPLATE FROM SOURCE DOCUMENT")
+#     print("-" * 50)
+    
+#     # Example source contract (this would come from your PDF extraction)
+#     source_contract = """
+#     SERVICE AGREEMENT
+    
+#     This Service Agreement ("Agreement") is entered into on January 1, 2024, between ABC Corp ("Client") and XYZ Services ("Provider").
+    
+#     1. SCOPE OF WORK
+#     Provider agrees to deliver web development services including website design, backend development, and testing.
+    
+#     2. PAYMENT TERMS
+#     Client agrees to pay $5,000 upon completion of services.
+    
+#     3. TERM
+#     This agreement shall remain in effect for 6 months from the effective date.
+    
+#     4. TERMINATION
+#     Either party may terminate this agreement with 30 days written notice.
+#     """
+    
+#     # Simulate the template extraction (this would use your rag_pipeline_with_prompt function)
+#     # For demo purposes, here's what the extracted template and placeholders would look like:
+#     extracted_template = """
+#     SERVICE AGREEMENT
+    
+#     This Service Agreement ("Agreement") is entered into on Agreement_Date, between Client_Company_Name ("Client") and Provider_Company_Name ("Provider").
+    
+#     1. SCOPE OF WORK
+#     Provider agrees to deliver Service_Description.
+    
+#     2. PAYMENT TERMS
+#     Client agrees to pay Payment_Amount upon completion of services.
+    
+#     3. TERM
+#     This agreement shall remain in effect for Agreement_Duration from the effective date.
+    
+#     4. TERMINATION
+#     Either party may terminate this agreement with Termination_Notice_Period written notice.
+#     """
+    
+#     extracted_placeholders = {
+#         "Agreement_Date": {
+#             "description": "The date when the agreement is entered into",
+#             "original_value": "January 1, 2024",
+#             "value": "March 15, 2025"  # New value for the new contract
+#         },
+#         "Client_Company_Name": {
+#             "description": "The legal name of the client company",
+#             "original_value": "ABC Corp",
+#             "value": "TechStart LLC"  # New value
+#         },
+#         "Provider_Company_Name": {
+#             "description": "The legal name of the service provider company", 
+#             "original_value": "XYZ Services",
+#             "value": "Digital Solutions Inc"  # New value
+#         },
+#         "Service_Description": {
+#             "description": "Detailed description of services to be provided",
+#             "original_value": "web development services including website design, backend development, and testing",
+#             "value": "mobile app development services including iOS and Android applications, API integration, and user testing"  # New value
+#         },
+#         "Payment_Amount": {
+#             "description": "The total payment amount for services",
+#             "original_value": "$5,000",
+#             "value": "$15,000"  # New value
+#         },
+#         "Agreement_Duration": {
+#             "description": "The duration for which the agreement remains in effect",
+#             "original_value": "6 months", 
+#             "value": "12 months"  # New value
+#         },
+#         "Termination_Notice_Period": {
+#             "description": "The notice period required for contract termination",
+#             "original_value": "30 days",
+#             "value": "60 days"  # New value
+#         }
+#     }
+    
+#     print("Template extracted with placeholders identified.")
+#     print(f"Found {len(extracted_placeholders)} placeholders to fill.")
+    
+#     # Step 2: Generate the final contract with updated placeholder values
+#     print("\n2. GENERATING FINAL CONTRACT WITH NEW VALUES")
+#     print("-" * 50)
+    
+#     generated_contract = generate_contract_from_template(extracted_template, extracted_placeholders)
+#     print("Generated Contract:")
+#     print(generated_contract)
+    
+#     # Step 3: Get contract sections summary for user reference
+#     print("\n3. ANALYZING CONTRACT SECTIONS")
+#     print("-" * 50)
+    
+#     sections_summary = get_contract_sections_summary(generated_contract)
+#     print("Available sections for modification:")
+#     print(sections_summary)
+    
+#     # Step 4: Apply interactive modifications to the generated contract
+#     print("\n4. APPLYING INTERACTIVE MODIFICATIONS")
+#     print("-" * 50)
+    
+#     # Example modifications that a user might request
+#     print("Modification 1: Adding confidentiality section...")
+#     modified_contract = interactive_contract_modifier(
+#         generated_contract, 
+#         "Add a comprehensive confidentiality section that requires both parties to keep all business information, technical details, and financial terms confidential for 3 years after the agreement ends"
+#     )
+    
+#     print("Modification 2: Adding intellectual property rights...")
+#     modified_contract = interactive_contract_modifier(
+#         modified_contract,
+#         "Add a section stating that all intellectual property created during this project will be owned by the client, but the provider retains the right to use general methodologies and non-proprietary techniques"
+#     )
+    
+#     print("Modification 3: Adding liability limitation...")
+#     modified_contract = interactive_contract_modifier(
+#         modified_contract,
+#         "Add a liability limitation clause that limits each party's liability to the total amount paid under this agreement, except in cases of willful misconduct or gross negligence"
+#     )
+    
+#     print("Modification 4: Updating payment terms...")
+#     modified_contract = interactive_contract_modifier(
+#         modified_contract,
+#         "Change the payment structure to 30% upfront, 40% at project milestone completion, and 30% upon final delivery and acceptance"
+#     )
+    
+#     # Step 5: Show final result
+#     print("\n5. FINAL MODIFIED CONTRACT")
+#     print("=" * 70)
+#     print(modified_contract)
+#     print("=" * 70)
+    
+#     # Step 6: Convert to HTML if needed
+#     print("\n6. FORMATTING TO HTML")
+#     print("-" * 50)
+    
+#     final_html = format_text_to_html_with_llm(
+#         modified_contract, 
+#         "Use professional legal document styling with clear section headers and proper spacing"
+#     )
+#     print("HTML version generated successfully.")
+#     print(f"HTML length: {len(final_html)} characters")
+    
+#     return {
+#         'original_contract': source_contract,
+#         'template': extracted_template,
+#         'placeholders': extracted_placeholders,
+#         'generated_contract': generated_contract,
+#         'final_modified_contract': modified_contract,
+#         'html_version': final_html
+#     }
+
+# # Example usage function for the interactive features (updated)
+# def example_interactive_workflow():
+#     """
+#     Updated example showing how to use interactive modifications AFTER contract generation.
+#     """
+#     print("=== Interactive Contract Modification After Generation ===\n")
+    
+#     # Assume you already have a generated contract (after placeholders were filled)
+#     generated_contract = """
+#     SERVICE AGREEMENT
+    
+#     This Service Agreement ("Agreement") is entered into on March 15, 2025, between TechStart LLC ("Client") and Digital Solutions Inc ("Provider").
+    
+#     1. SCOPE OF WORK
+#     Provider agrees to deliver mobile app development services including iOS and Android applications, API integration, and user testing.
+    
+#     2. PAYMENT TERMS
+#     Client agrees to pay $15,000 upon completion of services.
+    
+#     3. TERM
+#     This agreement shall remain in effect for 12 months from the effective date.
+    
+#     4. TERMINATION
+#     Either party may terminate this agreement with 60 days written notice.
+#     """
+    
+#     print("Generated Contract (with placeholders filled):")
+#     print("-" * 60)
+#     print(generated_contract)
+#     print("-" * 60)
+    
+#     # Now apply interactive modifications
+#     print("\n1. Getting contract sections summary...")
+#     sections_summary = get_contract_sections_summary(generated_contract)
+#     print("Contract Sections:")
+#     print(sections_summary)
+    
+#     print("\n2. Applying modifications to the generated contract...")
+    
+#     # Add new sections and modify existing ones
+#     print("\nAdding confidentiality section...")
+#     modified_contract = interactive_contract_modifier(
+#         generated_contract, 
+#         "Add a confidentiality section that states both parties must keep all project information confidential for 2 years after the agreement ends"
+#     )
+    
+#     print("Modifying payment terms...")
+#     modified_contract = interactive_contract_modifier(
+#         modified_contract,
+#         "Change the payment terms to include milestone-based payments: 40% upfront, 30% at beta release, and 30% upon final delivery"
+#     )
+    
+#     print("Adding warranty section...")
+#     modified_contract = interactive_contract_modifier(
+#         modified_contract,
+#         "Add a warranty section where the provider warrants the delivered applications will be free from defects for 90 days after delivery"
+#     )
+    
+#     print("\nFinal Modified Contract (after interactive modifications):")
+#     print("=" * 70)
+#     print(modified_contract)
+#     print("=" * 70)
+    
+#     return modified_contract
+
+# Uncomment the line below to test the complete workflow
+# complete_contract_workflow_example()

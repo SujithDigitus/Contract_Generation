@@ -1,0 +1,729 @@
+{
+  "Template": "SUPPLY AGREEMENT \nThis SUPPLY AGREEMENT (the \u201cAgreement\u201d) is made as of `Agreement_Effective_Date` (the \u201cEffective Date\u201d) by \nand between `Supplier_Legal_Name`, a `Supplier_State_Of_Incorporation` corporation with its principal place of business located at `Supplier_Address` (\u201cSupplier\u201d), and `Purchaser_Legal_Name`, a `Purchaser_State_Of_Incorporation` corporation with its principal place \nof business located at `Purchaser_Address` (\u201cPurchaser\u201d). Purchaser and Supplier may \nbe referred to herein individually as a \u201cParty\u201d or collectively as the \u201cParties.\u201d \nWITNESSETH \nWHEREAS, Supplier has considerable experience in the design and manufacture of `Supplier_Expertise_Product_Type`; \nWHEREAS, pursuant to that certain `License_Agreement_Title` of even date herewith (the \n\u201cLicense Agreement\u201d), Supplier has agreed to develop a `Developed_Product_Type` for use in connection with \nPurchaser\u2019s `Purchaser_Product_Type` to address `Purchaser_Product_Purpose`, in return for `Royalty_Basis` and `Payment_Basis`; \nWHEREAS, Purchaser wishes to purchase from Supplier a supply of such sensors for incorporation by \nPurchaser into products for `Purchaser_Product_Use_Cases`; and \nWHEREAS, Supplier is willing to supply Purchaser with such sensors pursuant to the terms and conditions as \nset forth herein; \nNOW, THEREFORE, in consideration of the foregoing and the covenants and promises contained in this \nAgreement, Purchaser and Supplier hereby agree as follows: \n  \nARTICLE 1 \nDEFINITIONS \nAs used in this Agreement, capitalized terms not otherwise defined below shall have the meanings ascribed to such \nterms in the License Agreement, and the following capitalized terms shall have the following meanings: \n1.1 \u201cAffiliate\u201d means, with respect to a Party, any corporation or other business entity controlling, controlled by or \nunder common control with such Party. The term \u201ccontrolling\u201d (with correlative meanings for the terms \u201ccontrolled \nby\u201d and \u201cunder common control with\u201d) as used in this definition means either (a) possession of the direct or indirect \nownership of more than `Affiliate_Control_Percentage_1` of the voting or income interest of the applicable corporation or other \nbusiness entity, or (b) the ability, by contract or otherwise, to control the management of the applicable corporation \nor other business entity. \n1.2 \u201cCertificate of Compliance\u201d shall have the meaning set forth in `Certificate_Of_Compliance_Section_Reference`. \n1.3 \u201cChange of Control\u201d shall mean any of the following events: \n(a) A merger, consolidation, exchange, or reorganization to which Supplier is a party if the individuals and \nentities who were shareholders of Supplier immediately prior to the effective date of such transaction have, \nimmediately following the effective date of such transaction, beneficial ownership (as defined in Rule 13d-\n3 under the `Change_Of_Control_Act_Reference`) of less than `Change_Of_Control_Percentage_A` of the total combined voting \npower of all classes of securities issued by the surviving corporation for the election of directors of the \nsurviving corporation; \n(b) Approval by the shareholders of Supplier of a plan of complete liquidation of Supplier or of an \nagreement for the sale or disposition by Supplier of all or substantially all Supplier\u2019s assets; \n(c) The sale or transfer of all or substantially all of the assets of Supplier relating to the manufacture of any \nSupply Deliverable; \n(d) The acquisition after the date hereof, without prior approval by the \u201cContinuity Directors\u201d as such term \nis defined below, of direct or indirect beneficial ownership (as defined in Rule 13d-3 under the `Change_Of_Control_Act_Reference_2`) of securities of Supplier representing, in the aggregate, `Change_Of_Control_Percentage_D` or more of the total \ncombined voting power of all classes of Supplier\u2019s then issued and outstanding securities by any person or \nentity or by a group of associated persons or entities acting in concert; \n(e) The acquisition after the date hereof of direct or indirect beneficial ownership (as defined in Rule 13d-3 \nunder the `Change_Of_Control_Act_Reference_3`) of securities of Supplier representing, in the aggregate, more \nthan `Change_Of_Control_Percentage_E` of the total combined voting power of all classes of Supplier\u2019s then issued and \noutstanding securities by any person or entity or by a group of associated persons or entities acting in \nconcert; or \n(f) A change in the composition of the Board at any time after the date hereof such that the \u201cContinuity \nDirectors\u201d cease for any reason to constitute at least a majority of the Board. For purposes of this event, \n\u201cContinuity Directors\u201d means those members of the Board who either: (i) were directors as of the date \nhereof; or (ii) were elected by, or on the nomination or recommendation of, `Change_Of_Control_Percentage_F` of the then-existing \nContinuity Directors. \n1.4 \u201c[*] Specifications\u201d means the specifications set forth on `Exhibit_A_Redacted_Reference` attached hereto. \n1.5 \u201cConfidential Information\u201d means `Confidential_Information_Definition_Paragraph`. \n1.6 \u201cDefective Product\u201d shall have the meaning set forth in `Defective_Product_Section_Reference`. \n1.7 \u201cExclusivity Period\u201d shall have the meaning given to such term in `Exclusivity_Period_Source_Agreement`. \n1.8 \u201cFDA\u201d means `FDA_Definition`. \n1.9 \u201cFD&C Act\u201d means `FD_C_Act_Definition`. \n1.10 \u201cGood Manufacturing Practice\u201d or \u201cGMP\u201d means `GMP_Definition_Paragraph`. \n1.11 \u201cInitial Cost\u201d shall equal the average Manufacturing Cost of the `Initial_Cost_Unit_Count` units of Supply Deliverables \ndelivered to Purchaser under this Agreement for use in products approved (in a form incorporating one or more \nSupply Deliverables) for commercial sale. \n1.12 \u201cManufacturing Cost\u201d means `Manufacturing_Cost_Definition_Paragraph`. \n  \n1.13 \u201cQualified Vendor\u201d means, with respect to a particular good or service provided to Supplier in connection \nwith manufacturing Supply Deliverables hereunder, a Third Party provider of such good or service that meets the \nrequirements set forth in `Qualified_Vendor_Requirements_Section`. \n1.14 \u201cQuality Control Procedures\u201d shall have the meaning set forth in `Quality_Control_Procedures_Section_Reference`. \n1.15 \u201cRegulatory Authority\u201d means `Regulatory_Authority_Definition`. \n1.16 \u201cRegulatory Standards\u201d means `Regulatory_Standards_Definition_Paragraph`. \n1.17 \u201cSpecifications\u201d shall mean `Specifications_Definition_Paragraph`. \n1.18 \u201cSupply Deliverables\u201d means `Supply_Deliverables_Description`. \n  \nARTICLE 2 \nSUPPLY OBLIGATIONS \n2.1 Manufacture and Supply. Supplier agrees to manufacture (or have manufactured on its behalf by Qualified \nVendors) and supply to Purchaser the amount of Supply Deliverables set forth on purchase orders submitted by \nPurchaser in accordance with the provisions of `Supply_Obligation_Section_Reference`. During the Exclusivity Period, Supplier shall supply \nSupply Deliverables exclusively to Purchaser, and Supplier shall not manufacture (or have manufactured) any \nSupply Deliverables for the benefit of any party other than Purchaser. Purchaser shall use the Supply Deliverables \nsupplied hereunder `Exclusivity_Period_Usage_Restriction` and shall not re-sell or distribute such \nSupply Deliverables on a stand-alone basis. \n2.2 Forecasts. No later than `Forecast_Period_Start_Time` prior to the anticipated commercial launch date for the first Midic Licensed \nProduct incorporating a Supply Deliverable, Purchaser shall provide a binding forecast of Purchaser\u2019s requirements \nfor the `Forecast_Period_Duration_Initial` (e.g., any initial stocking orders). Thereafter, no later than the commencement of each of \nPurchaser\u2019s `Forecast_Period_Duration_Rolling` (referred to herein as a \u201cfiscal quarter\u201d), Purchaser shall furnish Supplier with a rolling \nforecast of its requirements of the Supply Deliverables for such fiscal quarter and each of the `Forecast_Period_Subsequent_Quarters` within the term of this Agreement. Such `Forecast_Period_Subsequent_Quarters_2` period shall be referred to herein as the \u201cForecast \nPeriod.\u201d The `Binding_Forecast_Quarter` of any forecast for a Forecast Period shall constitute a binding order under \nSection 2.3 for supply of the forecast amount of the Supply Deliverables during such fiscal quarter, and the \n`Non_Binding_Forecast_Quarters` of each forecast shall be treated as a non-binding estimate only. Notwithstanding \nthe foregoing, in any fiscal quarter, Supplier shall not be required to supply hereunder more than `Supply_Quantity_Obligation_Limit_1` of the lesser \nof (a) the last non-binding forecast with respect to such fiscal quarter; and (b) the second-to-last non-binding \nforecast with respect to such fiscal quarter; provided, that Defective Product replacements supplied under \n`Supply_Quantity_Obligation_Exception_Section_1` and Supply Deliverables supplied pursuant to orders under `Supply_Quantity_Obligation_Exception_Section_2` shall be ignored for purposes \nof determining the foregoing supply quantity obligation. In the event that orders for delivery of Supply Deliverables \nhereunder during a given fiscal quarter exceed in the aggregate `Supply_Quantity_Obligation_Limit_2` of the applicable non-binding forecast with \nrespect to such fiscal quarter, then the Parties shall revise forecast. In any event, and without limiting in any way \nSupplier\u2019s obligations hereunder, Supplier shall at all times use (and cause its vendors to use) commercially \nreasonable efforts to satisfy Purchaser\u2019s orders for Supply Deliverables. Any and all forecasts provided by Purchaser \nto Supplier under this Agreement shall be sent to `Forecast_Recipient_Department`. \n2.3 Orders. In conjunction with each binding forecast described in `Orders_Section_Reference`, Purchaser shall, and from time to \ntime in addition to such forecasts Purchaser may, provide to Supplier written purchase orders specifying quantities \nand requested delivery date(s) of Supply Deliverables, as well as the location(s) to which the requested Supply \nDeliverables are to be shipped. Each order shall be deemed to have been accepted by Supplier unless rejected by \nSupplier by providing Purchaser with written notice of rejection within `Order_Acceptance_Period` after receipt; provided, \nhowever, that Supplier shall have no right to reject, and shall be deemed to have accepted, any order to the extent \nthat (a) the aggregate quantity of Supply Deliverables ordered for delivery (pursuant to all orders under this \nSection 2.3, including the binding portion of the Forecast) during the applicable quarter is within the supply quantity \nobligation set forth in Section 2.2; and (b) the order requests delivery of Supply Deliverables to the specified \ndelivery destination `Order_Acceptance_Condition_B_Delivery_Date`. Any purchase orders submitted by Purchaser \nshall reference this Agreement and shall be governed exclusively by the terms contained herein. Any term or \ncondition in any purchase order, confirmation, or other document furnished by Purchaser or Supplier that is in any \nway inconsistent with the terms and conditions set forth in this Agreement is hereby expressly rejected. No accepted \norder shall be modified or canceled except as provided herein or upon the mutual agreement of the parties. Mutually \nagreed change orders shall be subject to all provisions of this Agreement, whether or not the change order so states. \nPurchaser may in its sole discretion by written notice to Supplier cancel orders for and deliveries of any Supply \nDeliverables that are not delivered `Order_Cancellation_Condition` or, if returned \nin accordance with `Order_Cancellation_Return_Section`, are not replaced within the time period specified in `Order_Cancellation_Return_Section_2`. In the event of \nsuch cancellation by Purchaser, Purchaser may then make appropriate and proportional adjustments to any \noutstanding orders and forecasts in light of any shortfalls in supply that relate to such cancellation. \n2.4 Requirements. Unless and until Purchaser is permitted to exercise the `Back_Up_Manufacturing_Right_Reference`, Purchaser \nshall purchase from Supplier `Requirements_Percentage` of Purchaser\u2019s requirements of Supply Deliverables for \nuse in Midic Licensed Products in the Field, and Purchaser shall not manufacture itself, or obtain from any Affiliate \nor Third Party, any Supply Deliverables for use in Midic Licensed Products in the Field. \n2.5 Packaging and Labeling. All Products manufactured by Supplier shall be packaged and labeled in accordance \nwith the Specifications and Purchaser\u2019s written instructions. \n2.6 Delivery. Supplier shall have delivered to Purchaser or its designee, at the delivery destination and by the \ndelivery date specified in such order, the specified quantity of Supply Deliverables conforming with the \nSpecifications and that has been manufactured in accordance with the requirements set forth in this Agreement. \nSupplier shall report to Purchaser the occurrence of any event within or beyond its control which is likely to affect \ndelivery of any order of Supply Deliverables. \n2.7 Shipping; Risk of Loss. All shipments will be made `Delivery_Incoterm` the facility located within the \n`Delivery_Location_Country` of the Qualified Vendor that is responsible for final assembly of the Supply Deliverables, by a \ncommon carrier selected by Purchaser. Supplier shall assist Purchaser in obtaining best cost terms from such \ncommon carrier. Except as provided herein with respect to Defective Products, risk of loss as to Product shipped to \nPurchaser hereunder shall pass to Purchaser or the recipient designated by Purchaser (as applicable) upon delivery of \nsuch Product to the common carrier selected by Purchaser. \n2.8 Purchaser Materials. Purchaser and/or its agents or subcontractors shall provide Supplier with Purchaser \nMaterials meeting the Specifications as necessary for the manufacture of Supply Deliverables. Supplier shall \nmaintain a reasonable supply of Purchaser Materials in good condition as required to permit Supplier to satisfy its \nobligations hereunder and shall notify Purchaser `Purchaser_Materials_Notice_Period` the date on which additional Purchaser \nMaterials are required to satisfy orders hereunder. Purchaser shall deliver or cause to be delivered to Supplier such \nquantities of Purchaser Materials as are specified in such notice no later than the date so required. Supplier shall \nmaintain records with respect to the amount, location and usage of Purchaser Materials supplied by Purchaser and \nmake such records available to Purchaser upon request. Supplier shall use the Purchaser Materials solely for the \npurpose of manufacturing Supply Deliverables for Purchaser. Supplier shall promptly notify Purchaser if any \nPurchaser Materials delivered hereunder fail to comply with the Specifications and shall at Purchaser\u2019s request \nimmediately make such Purchaser Materials available to a carrier selected by Purchaser for return to Purchaser at \nPurchaser\u2019s expense. Any Purchaser Materials that fail to comply with the Specifications shall be replaced by \nPurchaser as soon as reasonably practicable and in no event later than `Purchaser_Materials_Replacement_Period`. If, \ndespite Supplier\u2019s satisfaction of its obligations under this Section, Purchaser fails to timely deliver to Supplier \nPurchaser Materials that comply with the Specifications, Supplier\u2019s obligation to deliver Supply Deliverables by the \ndate specified in an order hereunder shall be tolled to the extent such delivery of Supply Deliverables cannot be \nmade due to shortage of Purchaser Materials. Supplier will take no action that could result in a lien on or other \nencumbrance of, or that could otherwise compromise Purchaser\u2019s ownership of, Purchaser Materials. Upon the \ntermination or expiration of this Agreement, Supplier will return to Purchaser in good condition all Purchaser \nMaterials not incorporated into Supply Deliverables supplied to Purchaser hereunder. \n2.9 Third-Party Manufacturers. \n(a) `Third_Party_Manufacturers_Notice_Period_A` the occurrence of the event specified in Section 4.1(b) of the License Agreement \n(the \u201cSecond Milestone\u201d), Supplier shall (i) notify Purchaser in writing of the names of the Qualified \nVendors that are then responsible for manufacturing Supply Deliverables and components thereof; and \n(ii) deliver information and provide access to Purchaser as reasonably necessary to verify each such \nmanufacturer\u2019s qualified status. At all times after 5 days after the occurrence of the Second Milestone, \nSupplier shall ensure that `Minimum_Qualified_Vendors` are obligated under effective written contracts \n(and ensure that such Qualified Vendors are available) to manufacture and supply Supply Deliverables in \nquantities sufficient to satisfy Purchaser\u2019s requirements; provided, however, that a failure by Supplier to \nmaintain at least 3 qualified Third Party manufacturers lasting `Qualified_Vendor_Failure_Grace_Period` shall not be considered to \nbe a breach of this provision. In no event shall Supplier manufacture or assemble (or have manufactured or \nassembled by a third party) any Supply Deliverable, or any subcomponent of any Supply Deliverable, (x) in \nany country that is embargoed by the United States, as identified by the `Embargoed_Country_Identification_Source`; or (y) by any person listed on the `Prohibited_Parties_Lists_Source`. Supplier shall comply in all material respects with \nits obligations under contracts with Qualified Vendors. \n(b) A manufacturer\u2019s status as a Qualified Vendor shall be determined by `Qualified_Vendor_Determination_Basis`, based on \nsuch manufacturer\u2019s compliance with Regulatory Standards and application of `Qualified_Vendor_Determination_Standard`, including the following: Purchaser shall provide written notice with respect to the \nqualified status of manufacturers identified by Supplier. The name of each manufacturer that qualifies as a \nQualified Vendor shall be deemed included in `Qualified_Vendor_Exhibit`. \nARTICLE 3 \nQUALITY CONTROL; ACCEPTANCE AND REJECTION. \n3.1 Quality Control. Supplier shall maintain and follow, and shall cause its Third Party vendors to maintain and \nfollow, a quality control and testing program that is consistent with the Regulatory Standards and the quality \nstandards and quality assurance plans included in the Specifications (the \u201cQuality Control Procedures\u201d). Supplier \nshall supply to Purchaser Supply Deliverables that are manufactured in accordance with Regulatory Standards. Each \nshipment of Supply Deliverables delivered to Purchaser shall be accompanied by a written certificate of compliance, \nexecuted by an authorized officer of Supplier, confirming that the Supply Deliverables were manufactured in \naccordance with the Specifications and Regulatory Standards (\u201cCertificate of Compliance\u201d). \n3.2 Samples; Quality Control Audits. Supplier shall maintain, and shall cause its Third Party vendors to maintain, \nsample units for each batch of Supply Deliverables for a period of `Sample_Retention_Period` after Supplier delivers such Supply \nDeliverables to Purchaser, or longer if required by law. After such time period, Supplier shall notify Purchaser prior \nto the destruction or disposal of any sample units retained under this Section 3.2 and, `Sample_Delivery_Request_Condition`, \nSupplier shall deliver or cause to be delivered such sample units to Purchaser in lieu of such destruction or disposal, \nall at `Quality_Control_Audit_Expense`. During the term of this Agreement, Purchaser shall have the right to audit, survey, or \nverify the adherence of Supplier and each Third Party vendor to the Quality Control Procedures and Regulatory \nStandards, all at Purchaser\u2019s expense. In addition, upon `Audit_Notice_Requirement` to Supplier, Purchaser \nshall have the right to have representatives or Regulatory Authorities visit the manufacturing facilities of Supplier \nand Third Party vendors `Audit_Visit_Timing` to review Supplier\u2019s and such vendors\u2019 manufacturing \noperations, to assess compliance with Quality Control Procedures and Regulatory Standards, and to discuss any \nrelated issues with Supplier\u2019s and such vendors\u2019 manufacturing and management personnel. \n3.3 Acceptance and Rejection. \n(a) Purchaser may reject any Supply Deliverable delivered under this Agreement that does not comply with \nthe warranties set forth in `Acceptance_And_Rejection_Section_Reference` (a \u201cDefective Product\u201d) by giving written notice of such Defective \nProducts to Supplier `Defective_Product_Notice_Period` thereof. If Purchaser fails to so notify Supplier of any \nDefective Product within such period, Purchaser will be deemed to have accepted the Product, subject to \nSection 3.3(b) and without otherwise limiting Purchaser\u2019s remedies. \n(b) If, within `Defective_Product_Discovery_Period_Days` after Purchaser\u2019s initial acceptance, Purchaser discovers that an accepted Supply \nDeliverable is a Defective Product and that the nature of such defect was not visible upon reasonable \nphysical inspection of such product within the time period set forth in Section 3.3(a), Purchaser may revoke \nits acceptance of such Defective Product by providing written notice to Supplier of such revocation. If \nPurchaser fails to so notify Supplier of any Defective Product within such `Defective_Product_Revocation_Notice_Period` period, Purchaser will be \ndeemed to have irrevocably accepted the Product, without limiting Purchaser\u2019s remedies (i) under \n`Defective_Product_Remedies_Section_1` or `Defective_Product_Remedies_Article_2` or (ii) otherwise available for Supplier\u2019s breach of the warranty set forth in \n`Defective_Product_Remedies_Section_3`. \n(c) In notifying Supplier of Defective Product, Purchaser shall identify in reasonable detail the nature of the \ndefect and Purchaser\u2019s determination as to the cause of the defect. Supplier shall have a reasonable \nopportunity, `Defective_Product_Review_Period`, to review any materials provided by \nPurchaser to substantiate the existence of a Defective Product and to inspect its own stocks (if any) of \nSupply Deliverables. Supplier shall thereafter provide Purchaser with detailed written instructions to return \nor dispose of such Defective Product, subject to Section 3.4. If Supplier requests that Purchaser return \nallegedly Defective Product, Supplier shall immediately provide a Returned Material Authorization \n(\u201cRMA\u201d) number to Purchaser. `Defective_Product_RMA_Return_Period` of its receipt of the RMA number, Purchaser shall \nreturn to Supplier the allegedly Defective Product, freight prepaid, in a shipping carton with the RMA \nnumber displayed on the outside of the carton. Supplier reserves the right to refuse to accept any allegedly \nDefective Products that do not bear an RMA number on the outside of the carton. Purchaser shall have no \nobligation to pay for any Supply Deliverable that is subject to a claim of non-compliance or defect made \npursuant to this Section. Subject to Section 3.4, Supplier shall, `Defective_Product_Replacement_Period_Weeks` and at its expense, replace \nsuch Supply Deliverable (or, if acceptable to Purchaser, credit Purchaser with the transfer price paid by \nPurchaser in connection with such Supply Deliverable) and `Defective_Product_Reimbursement`. Purchaser shall not have the right to \nreturn any quantity of Supply Deliverables except for Defective Products subject to and in accordance with \n`Defective_Product_Return_Restriction_Section`. \n3.4 Independent Testing. If Supplier disagrees with Purchaser\u2019s determination that certain units of Supply \nDeliverables are Defective Product, then either Party may submit such Supply Deliverables to an independent Third \nParty testing service, `Independent_Testing_Party_Requirement`, for analytical testing to determine whether \nsuch Supply Deliverables are Defective Product. The Parties agree that such testing service\u2019s determination shall be \nfinal and determinative. The Party against whom the Third Party testing service rules shall bear all costs of the Third \nParty testing. \n3.5 Specifications. Following the completion of the Development Program, if Supplier finds it necessary or \ndesirable to change Specifications for any Supply Deliverable, or to change the design or production processes \naffecting the form, fit, function, performance, or chemical composition of any Supply Deliverable, Supplier will \ndeliver notice to `Specifications_Change_Notice_Recipient_Supplier` and will not implement any such change without Purchaser\u2019s prior written consent. If \nPurchaser finds it necessary or desirable to change Specifications for any Supply Deliverable, Purchaser will deliver \nnotice to `Specifications_Change_Notice_Recipient_Purchaser` (\u201cPurchaser\u2019s Change Notice\u201d).  \nARTICLE 4 \nREGULATORY MATTERS \n4.1 Compliance with Laws. Supplier shall supply to Purchaser Supply Deliverables that are manufactured in \ncompliance with `Compliance_With_Laws_Scope` \nwhere such Supply Deliverables are manufactured, including without limitation all laws and regulations of such territories applicable to the \ntransportation, storage, use, handling and disposal of hazardous materials. Supplier shall obtain and maintain (and \nshall cause its vendors to obtain and maintain) all government permits, including without limitation health, safety \nand environmental permits, necessary for the conduct of the actions and procedures undertaken to supply Supply \nDeliverables during the term of this Agreement. \n4.2 Records. Supplier shall keep, or cause to be kept by Third Parties, complete, accurate and authentic accounts, \nnotes, data, records and other documentation pertaining to the Quality Control Procedures and the manufacture, \nprocessing, testing, labeling, and storage of the Supply Deliverables, including without limitation master production \nand control records, in accordance with applicable laws and regulations and as necessary to enable the sharing of \nmanufacturing technology contemplated by the Back-Up Manufacturing Right. Supplier shall retain, or cause to be \nretained by Third Parties, such records for a period of `Records_Retention_Period` following the date of manufacture, or longer if \nrequired by law, and upon request, shall make available to Purchaser and its representatives copies of such records. \nAfter such time period, Supplier shall notify Purchaser prior to the destruction or disposal of any records retained \nunder this Section 4.2 and, `Records_Delivery_Request_Condition`, Supplier shall deliver or cause to be delivered such records to \nPurchaser in lieu of such destruction or disposal, all at Purchaser\u2019s expense. \n4.3 Customer Complaints. Purchaser shall be responsible for `Customer_Complaints_Responsibility_List`. Supplier \nshall, at Purchaser\u2019s reasonable request, assist Purchaser in complying with Purchaser\u2019s legal obligations pertaining \nto customer complaints and vigilance reporting. \n4.4 Adverse Events. Each Party agrees to notify the other Party in a timely manner of any adverse event, technical \nor clinical, which involves or may involve a Supply Deliverable supplied hereunder. Purchaser will have primary \nresponsibility for receiving, investigating, reporting (if applicable) and responding to any adverse events relating to \nMidic Licensed Products and/or Supply Deliverables. Supplier agrees to provide Purchaser with all assistance \nreasonably requested by Purchaser to investigate the possibility that a Supply Deliverable failure, defect or \nnonconformity caused or contributed to any adverse event, to determine the cause of such Supply Deliverable \nfailure, defect or nonconformity, and to develop a plan to assure that the cause of such failure, defect or \nnonconformity is eliminated. Purchaser shall reimburse out-of-pocket costs incurred by Supplier in connection with \nsuch assistance, `Adverse_Events_Reimbursement_Condition`. \n  \n4.5 Recall. In the event that a Midic Licensed Product is recalled, Purchaser shall so notify `Recall_Notification_Recipient`, and Supplier \nshall promptly provide Purchaser with such assistance in connection with such recall as may be reasonably \nrequested by Purchaser.  \nARTICLE 5 \nPRICES AND PAYMENT. \n5.1 Price. Purchaser shall pay Supplier a transfer price for the Supply Deliverables equal to: (a) `Price_Calculation_Period_A`, the Manufacturing Cost for such Supply Deliverables; and (b) `Price_Calculation_Period_B`, the lesser of \n(i) `Price_Calculation_Basis_B_I` and (ii) `Price_Calculation_Basis_B_II`. At all times \nduring the term of this Agreement, Supplier shall use all reasonable efforts to minimize the amount of Initial Cost \nand Manufacturing Cost with respect to all Supply Deliverables. \n5.2 Invoice and Payment. Supplier shall provide to Purchaser a written invoice for each shipment of Supply \nDeliverables delivered to Purchaser; each such invoice shall contain an accounting of the components of Initial Cost \nand Manufacturing Cost (as appropriate) for such Supply Deliverables in such detail as is reasonably necessary for \nPurchaser to evaluate the calculation thereof. All payments due hereunder to Supplier shall be paid in `Invoice_Currency` \nand payment terms shall be `Invoice_Payment_Terms_Days` following Purchaser\u2019s receipt of the applicable invoice. All payments due \nhereunder shall be made to `Invoice_Payment_Account`. \n5.3 Sharing of Cost Savings. `Cost_Savings_Sharing_Trigger` for use in a product approved (in a form incorporating one or more \nSupply Deliverables) for commercial sale, Supplier shall calculate the Initial Cost and notify Purchaser of such Initial Cost in writing, showing in reasonable \ndetail the calculation of each component of such Initial Cost. `Manufacturing_Cost_Notification_Period`, Supplier shall calculate the Manufacturing Cost of units of such Supply Deliverable delivered to \nPurchaser during such fiscal quarter and notify Purchaser of such Manufacturing Cost in writing, showing in \nreasonable detail the calculation of each component of such Manufacturing Cost (each such notification, a \u201cCost \nNotice\u201d). Purchaser shall pay Supplier, for each such fiscal quarter, a bonus payment calculated as follows: \n`Bonus_Payment_Formula` \nSuch bonus payment shall `Bonus_Payment_Timing` if \nSupplier has timely delivered the notices referred to above and shall be payable `Bonus_Payment_Delay_Condition`. No bonus payment will be owed by Purchaser (and no refund of the transfer price \nwill be owed by Supplier) if the Manufacturing Cost is greater than the Initial Cost. \n5.4 Records; Audit. Supplier shall maintain complete and accurate records relevant to the calculation of the Initial \nCost and any Manufacturing Cost relied on as a basis for a transfer price for Supply Deliverables or bonus payment \nhereunder. Records with respect to any such transfer price or bonus payment shall be retained for a period of `Records_Retention_Period_Financial` from the date of Supplier\u2019s invoice or notice of payment that relies on such transfer price or bonus payment in \ncalculating amounts due, or for any longer period of time required by applicable law. Supplier shall make such \nrecords available during reasonable business hours for examination (`Audit_Frequency`) by an \nindependent certified public accountant selected by Purchaser that is subject to confidentiality and non-use \nobligations reasonably acceptable to Supplier, for the sole purpose of evaluating Supplier\u2019s determination of any \nInitial Cost and Manufacturing Cost under this Agreement. The auditing expense shall be paid by `Audit_Expense_Payer_Default`; \nprovided, however, that `Audit_Expense_Payer_Condition`, Supplier shall bear and \npromptly reimburse Purchaser for the accounting expense. In any case, Supplier shall make any and all payments \nnecessary to Purchaser to correct any overpayment by Purchaser. Any records or accounting information received \nfrom Supplier or its Affiliates shall be Confidential Information of Supplier for purposes of `Confidential_Information_Article_Reference_1`. Results of any \nsuch audit shall be provided to both Parties, subject to Section 8. \n  \n  \nARTICLE 6 \nREPRESENTATIONS AND WARRANTIES. \n6.1 Mutual Representations and Warranties. Each Party hereby represents and warrants to the other Party as \nfollows: \n(a) Due Authorization. Such Party has taken all necessary action on its part to authorize the execution and \ndelivery of this Agreement and the performance of its obligations hereunder. \n(b) Enforcement of Obligations. This Agreement has been duly executed and delivered on behalf of such \nParty, and constitutes a legal, valid, binding obligation, enforceable against such Party in accordance with \nits terms. \n(c) No Conflict. The execution and delivery of this Agreement and the performance of such Party\u2019s \nobligations hereunder do not conflict with, or constitute a default or require any consent under, any \ncontractual obligation of such Party. \n6.2 Manufacturing Warranty. Supplier warrants to Purchaser that all Supply Deliverables supplied hereunder \nshall: (a) conform to the Specifications (including any shelf life or durability requirements set forth therein) as such \nSpecifications exist as of the time of delivery hereunder; and (b) have been manufactured in compliance with this \nAgreement; and (c) be free from defects in design, materials and workmanship; and (d) not be adulterated or \nmisbranded within the meaning of the FD&C Act; provided, however that (i) Supplier makes no warranty with \nrespect to the Purchaser Materials; and (ii) Supplier shall have no warranty obligation under Section 6.2(a) with \nrespect to any Supply Deliverable that is modified, altered, transported, stored or used after the date of delivery \nhereunder in a manner inconsistent in any material respect with the Specifications. Except as provided in `Defective_Product_Remedies_Section_1_2` and `Defective_Product_Remedies_Article_2_2` and Article 7, Supplier\u2019s sole liability and Purchaser\u2019s sole remedy for breach of the foregoing warranty \nshall be limited to the actions and procedures set forth in Section 3.3(c). \n6.3 Additional Representations and Warranties of Supplier. \n(a) Supplier represents and warrants that `Supplier_Debarment_Warranty`. \n(b) Supplier represents and warrants that `Supplier_Conflicting_Agreement_Warranty`. \n6.4 Disclaimer of Warranty. `Disclaimer_Of_Warranty_Text`. \nARTICLE 7 \nINDEMNIFICATION. \n7.1 Indemnity by Supplier. Supplier agrees to indemnify, hold harmless and defend Purchaser and its Affiliates and \nsublicensees, and their respective officers, directors, employees, agents and representatives (collectively, the \n\u201cPurchaser Indemnitees\u201d) from and against and in respect of any and all demands, claims, actions or causes of \naction, assessments, losses, damages, liabilities, interest and penalties, costs and expenses arising out of a Third \nParty claim (including, without limitation, reasonable legal fees and disbursements incurred in connection therewith, \nand any amounts or expenses required to be paid or incurred in connection with any action, suit, proceeding, claim, \nappeal, demand, assessment or judgment) (collectively, \u201cLosses\u201d) resulting from, arising out of, or imposed upon or \nincurred by any person to be indemnified hereunder by reason of: `Supplier_Indemnity_Basis_List`. Notwithstanding the foregoing, Supplier shall not be obligated hereunder to indemnify the Purchaser \nIndemnitees to the extent Losses result from `Supplier_Indemnity_Exceptions_List`. \n7.2 Indemnity by Purchaser. Purchaser agrees to indemnify, hold harmless, and defend Supplier and its Affiliates \nand sublicensees, and their respective officers, directors, employees, agents and representatives (collectively, \nthe \u201cSupplier Indemnitees\u201d) from and against any Losses resulting from, arising out of, or imposed upon or \nincurred by any person to be indemnified hereunder by reason of: `Purchaser_Indemnity_Basis_List`. Notwithstanding the foregoing, Purchaser shall not have any obligation to \nindemnify the Supplier Indemnitees with respect to any matters for which the Purchaser Indemnitees are entitled to \nindemnification pursuant to Section 7.1. \n   \n7.3 Indemnification Procedures. If a claim by a Third Party is made against any indemnified party, and if the \nindemnified party intends to seek indemnity with respect thereto under this Article 7, such indemnified party shall \npromptly notify the indemnifying party of such claim; provided, however, that failure to give timely notice shall not \naffect the rights of the indemnified party except to the extent the indemnifying party has been prejudiced by such \nfailure. Except to the extent that the claim relates to patent rights of the indemnified party, in which case the Parties \nshall mutually agree on the assumption of defense, the indemnifying party shall be entitled to settle or assume the \ndefense of such claim, including the employment of counsel reasonably satisfactory to the indemnified party, as \nprovided below. If the indemnifying party elects to settle or defend such claim, it shall notify the indemnified party \n`Indemnification_Defense_Notice_Period` (but in no event less than `Indemnification_Defense_Notice_Period_Short` before any pleading, filing or response on behalf of the indemnified \nparty is due) of its intent to do so. If the indemnifying party elects not to settle or defend such claim or fails to notify \nthe indemnified party of its election `Indemnification_Defense_Notice_Period_2` (or such shorter period as provided above) after receipt of the \nindemnified party\u2019s notice of a claim of indemnity hereunder, the indemnified party shall have the right to contest, \nsettle or compromise the claim without prejudice to any rights to indemnification hereunder. Regardless of which \nparty is controlling the settlement or defense of any claim, (i) both the indemnified party and indemnifying party \nshall act in good faith, (ii) the indemnifying party shall not thereby permit to exist any lien upon any asset of any \nindemnified party or of its Affiliates without the consent of the indemnified party, (iii) the indemnifying party shall \npermit the indemnified party to participate in such settlement or defense through counsel chosen by the indemnified \nparty, provided that all fees, costs and expenses of such counsel in an action controlled by the indemnifying party \nshall be borne by the indemnified party, unless the indemnifying party and indemnified party have different \navailable defenses to such third-party claim, in which case such fees, costs and expenses shall be borne by the \nindemnifying party, and (iv) no entry of judgment or settlement of a claim may be agreed to without the written \nconsent of both the indemnified party and the indemnifying party, which consents shall not be unreasonably \nwithheld (unless such judgment or settlement is solely for money damages which the indemnifying party has \ndemonstrated an ability to pay or will have no continuing effect in any material respect on the business of the \nindemnified party). So long as the indemnifying party is reasonably contesting any such claim in good faith as \npermitted herein, the indemnified party shall not pay or settle any such claim. The controlling party shall deliver, or \ncause to be delivered, to the other party copies of all correspondence, pleadings, motions, briefs, appeals or other \nwritten statements submitted in connection with the settlement or defense of any such claim, and timely notices of, \nand the right to participate pursuant to (iii) above in any hearing or other court proceeding relating to such claim. \nARTICLE 8 \nCONFIDENTIALITY. \n8.1 Confidentiality. The Parties agree that any Confidential Information of a Party disclosed by such Party to the \nother Party under this Agreement shall be treated the same as Confidential Information disclosed under `Confidential_Information_Source_Agreement_2` and shall be subject to the same rights and obligations of the Parties under `Confidential_Information_License_Agreement_Article` (even following termination thereof, as provided therein). Supplier shall be permitted to disclose \nPurchaser\u2019s Confidential Information on a need-to-know basis to its Qualified Vendors who are obligated to keep \nsuch information confidential pursuant to written agreements with Supplier, provided that Supplier causes each of its \nQualified Vendors who is provided access to Purchaser\u2019s Confidential Information to comply with Supplier\u2019s \nconfidentiality and non-use obligations with respect to such Confidential Information as if such Qualified Vendor \nwere a party hereto. After the occurrence of a `Confidential_Information_Triggering_Event`, Purchaser shall be permitted to disclose Supplier\u2019s \nConfidential Information (including any information of Suppliers\u2019 vendors disclosed by Supplier or its vendors to \nPurchaser, and specifically any information placed in escrow) on a need-to-know basis to its vendors who are \nobligated to keep such information confidential pursuant to written agreements with Purchaser, provided that \nPurchaser causes each of its vendors who is provided access to Supplier\u2019s Confidential Information to comply with \nPurchaser\u2019s confidentiality and non-use obligations with respect to such Confidential Information as if such vendor \nwere a party hereto. \n  \n  \nARTICLE 9 \nTERM AND TERMINATION. \n  \n9.1 Term. This Agreement shall commence on `Term_Start_Date` and shall continue in effect until terminated as \npermitted under this Article 9. Notwithstanding the foregoing, the execution by Purchaser of `Condition_Precedent_Agreement` with Supplier and the purchase by Purchaser of `Condition_Precedent_Shares` in accordance \nwith the terms therein shall be express conditions precedent to the effectiveness of this Agreement and the Parties\u2019 \nrights hereunder. \n9.2 Material Breach. Either Party shall have the right to terminate this Agreement upon written notice to the other \nParty if the other Party commits any material breach of this Agreement that such breaching Party fails to cure within \n`Material_Breach_Cure_Period` following written notice from the nonbreaching Party specifying such breach. \n9.3 Relationship to License Agreement. Unless the Parties otherwise agree in writing, this Agreement will \nterminate `Termination_Upon_License_Agreement_Termination`. \n9.4 Post-Exclusivity. After the expiration of the Exclusivity Period, Purchaser shall have the right to terminate this \nAgreement by delivering written notice to Supplier `Post_Exclusivity_Termination_Notice_Period_Purchaser` prior to effectiveness of termination. \n9.5 By Supplier. Supplier shall have the right to terminate this Agreement by delivering written notice to Supplier `Termination_Notice_Period_Supplier` prior to effectiveness of termination (subject to Purchaser\u2019s last-time buy \nrights as set forth in `Supplier_Termination_Last_Time_Buy_Section_Reference`). Upon such termination, Purchaser would be permitted to exercise the `Back_Up_Manufacturing_Right_Reference_2`. \n   \n9.6 Purchaser\u2019s Last-Time Buy Rights. `Last_Time_Buy_Order_Window_Supplier_Termination` or `Last_Time_Buy_Order_Window_Purchaser_Termination`, Midic may in its sole discretion submit a single order for Supply Deliverables, which order \nshall be deemed accepted by Supplier to the extent the number of units of Supply Deliverables so ordered does not \nexceed, `Last_Time_Buy_Order_Limit`. Supplier shall satisfy any such order as \nsoon as reasonably practicable, and in any event, Supplier shall deliver `Last_Time_Buy_Delivery_Period_2_3` and shall deliver `Last_Time_Buy_Delivery_Period_Full`.  \nARTICLE 10 \nGENERAL TERMS. \n10.1 Governing Law; Dispute Resolution. \n(a) This Agreement shall be governed by and construed in accordance with the laws of the `Governing_Law_State` `Governing_Law_Principle_Exclusion`. Subject to Section 10.1(b), and without \nlimiting the rights of the parties to pursue in any appropriate jurisdiction their respective rights with respect \nto any judgment obtained in respect hereof, the parties hereby irrevocably consent to the exclusive \njurisdiction and venue of any United States court of competent jurisdiction located in the `Jurisdiction_State` and/or the state courts located in `Jurisdiction_County` therein to adjudicate any legal action \ncommenced in respect of this Agreement and waive any objections either may have at any time to such \njurisdiction and venue. The parties agree to the personal jurisdiction of such courts and agree that service of \nprocess may be made pursuant to notice sent in accordance with `Service_Of_Process_Section`. \n(b) Any dispute arising under this Agreement shall be referred first to `Relationship_Manager_Title_Supplier` and the \n`Relationship_Manager_Title_Purchaser` (each a \u201cRelationship Manager\u201d) \n`Dispute_Referral_Period` from either Party specifying the nature of the dispute and \nreferencing this Section. Each Relationship Manager shall make a good faith attempt to begin discussions \nregarding such dispute in person or by telephone with the other Relationship Manger `Dispute_Discussion_Start_Period` of a dispute being referred to him or her. The Relationship Managers shall meet as often as the Parties \nreasonably deem necessary in order to gather and furnish to the other all information with respect to the \nmatter in issue which the Parties believe to be appropriate and germane in connection with its resolution. \nThe Relationship Managers shall discuss the problem and negotiate in good faith in an effort to resolve the \ndispute without the necessity of any formal proceeding.  \n10.2 Use of Name. No right, express or implied, is granted by this Agreement to either Party to use in any manner \nthe name of the other or any other trade name or trademark of the other. \n10.3 LIMITATION OF LIABILITY. `Limitation_Of_Liability_Text`. \n10.4 Independent Parties. The Parties are not employees or legal representatives of the other Party for any purpose. \nNeither Party shall have the authority to enter into any contracts in the name of or on behalf of the other Party. \n10.5 Notice. All notices, including notices of address change, required or permitted to be given under this \nAgreement shall be in writing and deemed to have been received (a) `Notice_Delivery_Method_Hand`, (b) `Notice_Delivery_Method_Certified_Mail`, (c) `Notice_Delivery_Method_Overnight_Courier`, or (d) `Notice_Delivery_Method_Facsimile`, in each case sent to the address or facsimile number set \nforth below: (or any updated addresses communicated to the other Party in writing) \n  \nIf to Supplier: \n  \n`Supplier_Notice_Address` \nAttention: `Supplier_Notice_Attention` \nIf to Purchaser: \n  \n`Purchaser_Notice_Address` \nAttention: `Purchaser_Notice_Attention` \n  \n10.6 Severability. In the event any provision of this Agreement is held to be invalid or unenforceable, the valid or \nenforceable portion thereof and the remaining provisions of this Agreement will remain in full force and effect. \n10.7 Waiver. Any waiver (express or implied) by either Party of any breach of this Agreement shall not constitute a \nwaiver of any other or subsequent breach. \n10.8 Entire Agreement; Amendment. This Agreement and the exhibits attached hereto constitute the entire, final, \ncomplete and exclusive agreement between the Parties and supersede all previous agreements or representations, \nwritten or oral, with respect to the subject matter of this Agreement, including without limitation the Confidential \nDisclosure Agreement between the Parties dated `Earlier_Confidential_Disclosure_Agreement_Date_1` and the Confidential Disclosure Agreement between \nthe Parties dated `Earlier_Confidential_Disclosure_Agreement_Date_2`. All information to be kept confidential under such earlier confidentiality agreement \nas of the Effective Date shall be maintained as Confidential Information by the receiving Party under the obligations \nset forth in `Confidential_Information_Article_Reference_2`. This Agreement may not be modified or amended except in a writing signed \nby a duly authorized representative of each Party. \n10.9 Nonassignability; Binding on Successors. Any attempted assignment of the rights or delegation of the \nobligations under this Agreement shall be void without the prior written consent of the nonassigning or \nnondelegating Party; provided, however, that either Party may assign its rights or delegate its obligations under this \nAgreement without such consent (i) to an Affiliate of such Party or (ii) to its successor in interest in connection with \nany merger, consolidation, or sale of all or substantially all of the assets, or the sale or transfer of the business \nrelating to the subject matter hereof, of such Party. This Agreement shall be binding upon, and inure to the benefit \nof, the successors, executors, heirs, representatives, administrators and permitted assigns of the Parties hereto. \n  \n  \n10.10 Excused Performance. \n(a) If a Party is prevented from performing its obligations hereunder `Force_Majeure_Exception_1` solely as a result of a strike, riot, war, invasion, act \nof God, fire, explosion, flood, act of government agency or instrumentality, judicial action, or similar event \nor condition, in each case which is outside the reasonable control of such party and which did not exist and \nwas not reasonably foreseeable as of the date hereof (a \u201cForce Majeure\u201d), such Party\u2019s performance \nhereunder will be temporarily excused as provided in this Section, only by the degree affected and after \nsuch Party has taken (and so long as such Party continues to take) all reasonable action to avoid being so \naffected; provided, that such party delivers to the other party written notice promptly upon learning of such \nevent or condition, which notice shall include a detailed description of the event or condition and the \nanticipated effect on such Party\u2019s ability to perform its obligations hereunder, as well as a reasonably \ndetailed description of specific actions such Party plans to take to resume full performance hereunder. \n(b) Upon giving notice to the other Party, a Party affected by a Force Majeure shall be excused from the \nperformance of its obligations under this Agreement as described in `Force_Majeure_Supplier_Effect_Section`, except for the \nobligation to pay any amounts due and owing hereunder, but only to the extent and only for the period `Force_Majeure_Duration_Limit_Days` that its performance of such obligations is prevented by such Force Majeure. If Supplier is \nthe Party affected by the Force Majeure and has not fully resumed performance by the end of such period, \nPurchaser shall be entitled to exercise the Back-Up Manufacturing Right pursuant to `Force_Majeure_Back_Up_Manufacturing_Right_Section_1`. Nothing in this Section shall affect Purchaser\u2019s right to cancel purchase orders as \nprovided in `Force_Majeure_Back_Up_Manufacturing_Right_Section_2` or Purchaser\u2019s right to exercise the Back-Up Manufacturing Right under `Force_Majeure_Back_Up_Manufacturing_Right_Section_3`. \n(c) During the period that the performance by one of the Parties of its obligations under this Agreement has \nbeen suspended by reason of an event of Force Majeure, the other Party may likewise suspend the \nperformance of all or part of its obligations hereunder `Force_Majeure_Exception_2` to the extent that such suspension is commercially reasonable. \n  \n  \n10.11 Publicity. In the event either party proposes to issue any press release or public announcement concerning any \nprovisions of this Agreement or the transactions contemplated hereby, such party shall so advise the other party \nhereto, and the parties shall thereafter use their reasonable best efforts to cause a mutually agreeable release or \nannouncement to be issued. Neither party will publicly disclose or divulge any provisions of this Agreement or the \ntransactions contemplated hereby without the other parties\u2019 written consent, except as may be required by applicable \nlaw (including applicable SEC rules and regulations) or stock exchange regulation; provided that, prior to disclosure \nof any provision of this Agreement to any governmental agency or stock exchange, the parties shall cooperate to \nseek confidential treatment or other applicable limitations on the public availability of any information that either of \nthe parties considers sensitive or confidential. \n10.12 Counterparts. This Agreement may be executed in two or more counterparts, each of which shall be deemed \nan original and all of which shall constitute together the same instrument. \nIN WITNESS WHEREOF, the Parties hereto have duly executed this Supply Agreement as of the Effective Date. \n  \nCIMENS, INC. \n \n MIDIC, INC. \nBy:\n`Supplier_Signature_Name` \n \n \nBy: \n`Purchaser_Signature_Name` \nName: `Supplier_Printed_Name` \nName:  `Purchaser_Printed_Name` \nTitle: `Supplier_Title` \nTitle:  `Purchaser_Title` \nDate: `Supplier_Signature_Date` \nDate:  `Purchaser_Signature_Date` \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nEXHIBIT A \n`Exhibit_A_Title` \n \n`Exhibit_A_Table_Data` \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nEXHIBIT B \n`Exhibit_B_Title` \n \n`Exhibit_B_List_Data`",
+  "Placeholders": {
+    "Agreement_Effective_Date": {
+      "description": "The date the agreement is made effective.",
+      "original_value": "November 18, 2015"
+    },
+    "Supplier_Legal_Name": {
+      "description": "The full legal name of the Supplier.",
+      "original_value": "Cimens, INC."
+    },
+    "Supplier_State_Of_Incorporation": {
+      "description": "The state where the Supplier is incorporated.",
+      "original_value": "Delaware"
+    },
+    "Supplier_Address": {
+      "description": "The principal place of business address for the Supplier.",
+      "original_value": "75 Central Street, N.W., Suite 400, Atlanta, GA 30308"
+    },
+    "Purchaser_Legal_Name": {
+      "description": "The full legal name of the Purchaser.",
+      "original_value": "Midic, INC."
+    },
+    "Purchaser_State_Of_Incorporation": {
+      "description": "The state where the Purchaser is incorporated.",
+      "original_value": "Minnesota"
+    },
+    "Purchaser_Address": {
+      "description": "The principal place of business address for the Purchaser.",
+      "original_value": "700 Second Parkway, Minneapolis, MN 55432"
+    },
+    "Supplier_Expertise_Product_Type": {
+      "description": "Description of the product type Supplier has experience in.",
+      "original_value": "microelectromechanical sensors"
+    },
+    "License_Agreement_Title": {
+      "description": "The title of the related License and Development Agreement.",
+      "original_value": "License and Development Agreement"
+    },
+    "Developed_Product_Type": {
+      "description": "Description of the specific product Supplier agreed to develop.",
+      "original_value": "microelectromechanical sensor"
+    },
+    "Purchaser_Product_Type": {
+      "description": "Description of the Purchaser's products where the developed sensor will be used.",
+      "original_value": "implantable leads and implantable powered devices"
+    },
+    "Purchaser_Product_Purpose": {
+      "description": "The medical condition or function the Purchaser's products address.",
+      "original_value": "impaired cardiac function and/or hypertension"
+    },
+    "Royalty_Basis": {
+      "description": "The basis for royalty payments to Supplier.",
+      "original_value": "royalties on sales of products incorporating such sensors"
+    },
+    "Payment_Basis": {
+      "description": "Other payment terms mentioned.",
+      "original_value": "payment of certain milestones"
+    },
+    "Purchaser_Product_Use_Cases": {
+      "description": "The intended use cases for the sensors purchased by Purchaser.",
+      "original_value": "in human clinical studies and products for commercial sale"
+    },
+    "Affiliate_Control_Percentage_1": {
+      "description": "Percentage defining control for Affiliate.",
+      "original_value": "fifty percent (50%)"
+    },
+    "Certificate_Of_Compliance_Section_Reference": {
+      "description": "Section reference for the definition of Certificate of Compliance.",
+      "original_value": "Section 3.1"
+    },
+    "Change_Of_Control_Act_Reference": {
+      "description": "Reference to the Securities Exchange Act.",
+      "original_value": "Securities Exchange Act of 1934"
+    },
+    "Change_Of_Control_Percentage_A": {
+      "description": "Percentage threshold for Change of Control event (a).",
+      "original_value": "less than fifty percent (50%)"
+    },
+    "Change_Of_Control_Act_Reference_2": {
+      "description": "Reference to the Securities Exchange Act.",
+      "original_value": "Securities Exchange Act of 1934"
+    },
+    "Change_Of_Control_Percentage_D": {
+      "description": "Percentage threshold for Change of Control event (d).",
+      "original_value": "50%"
+    },
+    "Change_Of_Control_Act_Reference_3": {
+      "description": "Reference to the Securities Exchange Act.",
+      "original_value": "Securities Exchange Act of 1934"
+    },
+    "Change_Of_Control_Percentage_E": {
+      "description": "Percentage threshold for Change of Control event (e).",
+      "original_value": "more than fifty percent (50%)"
+    },
+    "Change_Of_Control_Percentage_F": {
+      "description": "Percentage threshold for Change of Control event (f)(ii).",
+      "original_value": "50%"
+    },
+    "Exhibit_A_Redacted_Reference": {
+      "description": "Redacted reference to Exhibit A.",
+      "original_value": "[*]"
+    },
+    "Defective_Product_Section_Reference": {
+      "description": "Section reference for the definition of Defective Product.",
+      "original_value": "Section 3.3(a)"
+    },
+    "Exclusivity_Period_Source_Agreement": {
+      "description": "The agreement where the Exclusivity Period is defined.",
+      "original_value": "the License Agreement"
+    },
+    "FDA_Definition": {
+      "description": "Definition of FDA.",
+      "original_value": "the United States Food and Drug Administration, or any successor thereto having the administrative authority to regulate the marketing of medical devices in the United States."
+    },
+    "FD_C_Act_Definition": {
+      "description": "Definition of FD&C Act.",
+      "original_value": "the United States Food, Drug and Cosmetic Act, as amended, and any regulations promulgated thereunder."
+    },
+    "GMP_Definition_Paragraph": {
+      "description": "Definition of Good Manufacturing Practice (GMP).",
+      "original_value": "the then-current standards for the manufacture of medical \ndevices, as set forth in the Food, Drug and Cosmetic Act, as amended, and applicable regulations and guidance \npromulgated thereunder, and any other laws or regulations applicable to the manufacture of medical devices in any \ncountry."
+    },
+    "Initial_Cost_Unit_Count": {
+      "description": "The number of units used to calculate the Initial Cost.",
+      "original_value": "500"
+    },
+    "Manufacturing_Cost_Definition_Paragraph": {
+      "description": "Definition of Manufacturing Cost.",
+      "original_value": "the sum of the following, all of which shall be calculated on a per-unit basis and \nin accordance with U.S. generally accepted accounting principles consistently applied, to the extent Supplier has \ndelivered to Purchaser a written accounting showing the amount of each component of the following and, with \nrespect to each component of subsection (c) below, the allocation basis and the manner in which it was calculated: \n(a) The amounts paid by Supplier to a Qualified Vendor for (i) providing raw materials and packaging \nmaterials for producing the Supply Deliverables, (ii) manufacturing, filling and/or finishing Supply \nDeliverables or any component thereof, (iii) transporting, storing, and insuring Supply Deliverables, and \n(iv) testing Supply Deliverables, including with respect to the foregoing, all taxes (other than income taxes) \nand customs duty charges imposed by governmental authorities with respect thereto, in each case to the \nextent paid by Supplier and not reimbursed or refunded or credited to Supplier by a Third Party, and net of \namounts paid but refunded to Supplier or credited against amounts due from Supplier to Qualified Vendors \n(or the value of discounts or other benefits received by Supplier from Qualified Vendors) that provide \ngoods or services to Supplier with respect to both Supply Deliverables and other Supplier projects; \n(b) The direct costs and charges incurred by Supplier in connection with the manufacture, filling, finishing, \ntesting and transportation of the Supply Deliverables, including Supplier\u2019s direct internal costs with respect \nthereto; and \n(c) A reasonable allocation of indirect labor, administration costs and facilities costs (including electricity, \nwater, sewer, waste disposal, insurance, storage, property taxes and depreciation over the expected life of \nbuildings and equipment) attributable to the Supply Deliverables (provided, that in no event will such \nallocation include any excess over 50% of the aggregate amount of such costs, as such costs are reflected in \nSupplier\u2019s financial statements prepared in accordance with U.S. generally accepted accounting principles). \nNotwithstanding the foregoing, no cost, charge, or expense will be included in more than one of subsections (a), (b), \nand (c)."
+    },
+    "Qualified_Vendor_Requirements_Section": {
+      "description": "Section reference for Qualified Vendor requirements.",
+      "original_value": "Section 2.10(b)"
+    },
+    "Quality_Control_Procedures_Section_Reference": {
+      "description": "Section reference for the definition of Quality Control Procedures.",
+      "original_value": "Section 3.1"
+    },
+    "Regulatory_Authority_Definition": {
+      "description": "Definition of Regulatory Authority.",
+      "original_value": "the FDA in the United States and the equivalent regulatory authority or entity \nhaving the responsibility, jurisdiction, and authority to approve the manufacture, use, importation, packaging, \nlabeling, marketing, and sale of medical devices in any country other than the United States."
+    },
+    "Regulatory_Standards_Definition_Paragraph": {
+      "description": "Definition of Regulatory Standards.",
+      "original_value": "(a) applicable standards of the International Standards Organization (\u201cISO\u201d) \nand applicable ISO-certified processes; (b) other quality standards and quality assurance plans referenced in the \nSpecifications; (c) laws and requirements of Regulatory Authorities referenced in the Specifications; and (d) any \nother applicable laws and requirements of Regulatory Authorities relating to the manufacture and supply of Supply \nDeliverables (or components thereof) by Supplier and Qualified Vendors and the incorporation of Supply \nDeliverables in medical devices within the Field for commercial sale. Regulatory Standards shall include without \nlimitation GMP with respect to the Supply Deliverable (but not its component parts)."
+    },
+    "Specifications_Definition_Paragraph": {
+      "description": "Definition of Specifications.",
+      "original_value": "the product characteristics, design requirements, processing, labeling, and \npackaging requirements, protocols and standards pertaining to the manufacture or supply of the Supply Deliverables. \nThe Specifications shall include the characteristics, requirements and standards contained in the Work Plan, subject \nto modification as set forth in the Work Plan. The Specifications shall be fully documented as part of the \nDevelopment Program, and may be modified and supplemented from time to time thereafter by mutual agreement of \nthe Parties."
+    },
+    "Supply_Deliverables_Description": {
+      "description": "Description of the Supply Deliverables.",
+      "original_value": "those MEMS sensors and any other sensor/capsule components of Supplier\u2019s \nMEMS sensor technology, as described in the final Specifications as of completion of the Development Program (or \nthereafter as modified and supplemented by"
+    },
+    "Supply_Obligation_Section_Reference": {
+      "description": "Section reference for purchase orders.",
+      "original_value": "Section 2.3"
+    },
+    "Exclusivity_Period_Usage_Restriction": {
+      "description": "Restriction on Purchaser's use of Supply Deliverables during the Exclusivity Period.",
+      "original_value": "solely in the Field as part of Midic Licensed Products"
+    },
+    "Forecast_Period_Start_Time": {
+      "description": "Time period before commercial launch for the initial binding forecast.",
+      "original_value": "3 months"
+    },
+    "Forecast_Period_Duration_Initial": {
+      "description": "Duration of the initial binding forecast period.",
+      "original_value": "pre-launch period (e.g., any initial stocking orders)"
+    },
+    "Forecast_Period_Duration_Rolling": {
+      "description": "Frequency of rolling forecasts.",
+      "original_value": "fiscal quarters"
+    },
+    "Forecast_Period_Subsequent_Quarters": {
+      "description": "Number of subsequent fiscal quarters included in the rolling forecast.",
+      "original_value": "subsequent 3 fiscal quarters"
+    },
+    "Forecast_Period_Subsequent_Quarters_2": {
+      "description": "Number of subsequent fiscal quarters defining the Forecast Period.",
+      "original_value": "3 quarter"
+    },
+    "Binding_Forecast_Quarter": {
+      "description": "Which fiscal quarter of the forecast is binding.",
+      "original_value": "first fiscal quarter"
+    },
+    "Non_Binding_Forecast_Quarters": {
+      "description": "Which fiscal quarters of the forecast are non-binding.",
+      "original_value": "remaining three (3) fiscal quarters"
+    },
+    "Supply_Quantity_Obligation_Limit_1": {
+      "description": "Percentage limit on required supply quantity relative to forecast.",
+      "original_value": "50%"
+    },
+    "Supply_Quantity_Obligation_Exception_Section_1": {
+      "description": "Section reference for Defective Product replacements exception.",
+      "original_value": "Section 3.3(c)"
+    },
+    "Supply_Quantity_Obligation_Exception_Section_2": {
+      "description": "Section reference for orders exception.",
+      "original_value": "Section 9.7"
+    },
+    "Supply_Quantity_Obligation_Limit_2": {
+      "description": "Percentage limit on required supply quantity relative to forecast.",
+      "original_value": "50%"
+    },
+    "Forecast_Recipient_Department": {
+      "description": "The department at Supplier to which forecasts should be sent.",
+      "original_value": "Supplier\u2019s materials planning department"
+    },
+    "Orders_Section_Reference": {
+      "description": "Section reference for forecasts.",
+      "original_value": "Section 2.2"
+    },
+    "Order_Acceptance_Period": {
+      "description": "Time period for Supplier to reject an order.",
+      "original_value": "5 business days"
+    },
+    "Order_Acceptance_Condition_B_Delivery_Date": {
+      "description": "Condition on the requested delivery date for automatic acceptance.",
+      "original_value": "no earlier than 3 days after the date of the order"
+    },
+    "Order_Cancellation_Condition": {
+      "description": "Condition for Purchaser to cancel orders based on delivery delay.",
+      "original_value": "within 3 days after the delivery date specified in the accepted order"
+    },
+    "Order_Cancellation_Return_Section": {
+      "description": "Section reference for returning cancelled orders.",
+      "original_value": "Section 3.3(c)"
+    },
+    "Order_Cancellation_Return_Section_2": {
+      "description": "Section reference for replacement time period for returned items.",
+      "original_value": "Section 3.3(c)"
+    },
+    "Back_Up_Manufacturing_Right_Reference": {
+      "description": "Reference to the Back-Up Manufacturing Right.",
+      "original_value": "Back-Up Manufacturing Right"
+    },
+    "Requirements_Percentage": {
+      "description": "Percentage of requirements Purchaser must purchase from Supplier.",
+      "original_value": "one hundred percent (100%)"
+    },
+    "Delivery_Incoterm": {
+      "description": "The Incoterm used for delivery.",
+      "original_value": "FCA (Incoterms 2000)"
+    },
+    "Delivery_Location_Country": {
+      "description": "The country where the delivery facility is located.",
+      "original_value": "United States"
+    },
+    "Purchaser_Materials_Notice_Period": {
+      "description": "Notice period required by Supplier for additional Purchaser Materials.",
+      "original_value": "at least 10 days prior"
+    },
+    "Purchaser_Materials_Replacement_Period": {
+      "description": "Time period for Purchaser to replace non-compliant materials.",
+      "original_value": "5 days after receipt of notice"
+    },
+    "Third_Party_Manufacturers_Notice_Period_A": {
+      "description": "Time period after the Second Milestone for Supplier to notify Purchaser of Qualified Vendors.",
+      "original_value": "Within 5 days after the occurrence of the event specified in Section 4.1(b) of the License Agreement"
+    },
+    "Minimum_Qualified_Vendors": {
+      "description": "Minimum number of Qualified Vendors Supplier must maintain.",
+      "original_value": "a minimum of 5 Qualified Vendors"
+    },
+    "Qualified_Vendor_Failure_Grace_Period": {
+      "description": "Grace period for failure to maintain the minimum number of Qualified Vendors.",
+      "original_value": "shorter than 3 days"
+    },
+    "Embargoed_Country_Identification_Source": {
+      "description": "Source for identifying embargoed countries.",
+      "original_value": "Office of Foreign Assets Control of the U.S. Department of Treasury"
+    },
+    "Prohibited_Parties_Lists_Source": {
+      "description": "Source for Prohibited Parties Lists.",
+      "original_value": "U.S. Departments of Treasury, State and Commerce"
+    },
+    "Qualified_Vendor_Determination_Basis": {
+      "description": "Basis for Purchaser's determination of Qualified Vendor status.",
+      "original_value": "Purchaser in good faith"
+    },
+    "Qualified_Vendor_Determination_Standard": {
+      "description": "Standard procedures used by Purchaser for vendor qualification.",
+      "original_value": "Purchaser\u2019s standard vendor qualification procedures"
+    },
+    "Qualified_Vendor_Exhibit": {
+      "description": "Exhibit listing Qualified Vendors.",
+      "original_value": "Exhibit B"
+    },
+    "Sample_Retention_Period": {
+      "description": "Period for retaining sample units.",
+      "original_value": "10 years"
+    },
+    "Sample_Delivery_Request_Condition": {
+      "description": "Condition under which Supplier must deliver sample units to Purchaser.",
+      "original_value": "if requested by Purchaser"
+    },
+    "Quality_Control_Audit_Expense": {
+      "description": "Party responsible for quality control audit expenses.",
+      "original_value": "Purchaser\u2019s expense"
+    },
+    "Audit_Notice_Requirement": {
+      "description": "Notice requirement for quality control audits.",
+      "original_value": "reasonable advance written notice"
+    },
+    "Audit_Visit_Timing": {
+      "description": "Timing for audit visits to manufacturing facilities.",
+      "original_value": "during normal business hours"
+    },
+    "Acceptance_And_Rejection_Section_Reference": {
+      "description": "Section reference for warranties related to acceptance and rejection.",
+      "original_value": "Section 6.2"
+    },
+    "Defective_Product_Notice_Period": {
+      "description": "Time period for Purchaser to notify Supplier of Defective Products upon receipt.",
+      "original_value": "within 5 days after receipt"
+    },
+    "Defective_Product_Discovery_Period_Days": {
+      "description": "Time period after initial acceptance to discover hidden defects.",
+      "original_value": "[*] days"
+    },
+    "Defective_Product_Revocation_Notice_Period": {
+      "description": "Time period for Purchaser to notify Supplier of Defective Product revocation.",
+      "original_value": "5 day"
+    },
+    "Defective_Product_Remedies_Section_1": {
+      "description": "Section reference for Purchaser's remedies.",
+      "original_value": "Section 4.5"
+    },
+    "Defective_Product_Remedies_Article_2": {
+      "description": "Article reference for Purchaser's remedies.",
+      "original_value": "Article 7"
+    },
+    "Defective_Product_Remedies_Section_3": {
+      "description": "Section reference for Supplier's warranty.",
+      "original_value": "Section 6.2"
+    },
+    "Defective_Product_Review_Period": {
+      "description": "Time period for Supplier to review materials and inspect stocks.",
+      "original_value": "not to exceed 10 days from receipt of notification"
+    },
+    "Defective_Product_RMA_Return_Period": {
+      "description": "Time period for Purchaser to return allegedly Defective Product after receiving RMA.",
+      "original_value": "Within 5 business days"
+    },
+    "Defective_Product_Replacement_Period_Weeks": {
+      "description": "Time period for Supplier to replace Defective Product.",
+      "original_value": "[*] weeks"
+    },
+    "Defective_Product_Reimbursement": {
+      "description": "Supplier's obligation regarding costs incurred by Purchaser for Defective Product.",
+      "original_value": "reimburse Purchaser for its costs incurred in connection with the shipment and return of the Defective Product"
+    },
+    "Defective_Product_Return_Restriction_Section": {
+      "description": "Section restricting returns to Defective Products.",
+      "original_value": "Section 3.3(c)"
+    },
+    "Independent_Testing_Party_Requirement": {
+      "description": "Requirement for the independent testing service.",
+      "original_value": "mutually and reasonably acceptable to both parties"
+    },
+    "Specifications_Change_Notice_Recipient_Supplier": {
+      "description": "Party to notify if Supplier changes Specifications.",
+      "original_value": "Purchaser"
+    },
+    "Specifications_Change_Notice_Recipient_Purchaser": {
+      "description": "Party to notify if Purchaser changes Specifications.",
+      "original_value": "Supplier"
+    },
+    "Compliance_With_Laws_Scope": {
+      "description": "Scope of laws and regulations Supplier must comply with.",
+      "original_value": "all applicable present and future orders, regulations, requirements and laws of any and all federal, state, provincial and local authorities and agencies of the territory or territories"
+    },
+    "Records_Retention_Period": {
+      "description": "Period for retaining manufacturing records.",
+      "original_value": "10 years"
+    },
+    "Records_Delivery_Request_Condition": {
+      "description": "Condition under which Supplier must make records available to Purchaser.",
+      "original_value": "if requested by Purchaser"
+    },
+    "Customer_Complaints_Responsibility_List": {
+      "description": "List of Purchaser's responsibilities regarding customer complaints.",
+      "original_value": "(i) managing all customer complaints or product inquires with respect to Midic Licensed Products, (ii) reporting such complaints or inquires to Regulatory \nAuthorities and (iii) except as otherwise provided herein, all appropriate corrective action related thereto."
+    },
+    "Adverse_Events_Reimbursement_Condition": {
+      "description": "Condition under which Purchaser will reimburse Supplier for adverse event assistance costs.",
+      "original_value": "unless the adverse event is conclusively determined to have been caused by a Supply Deliverable failure, defect or nonconformity (excluding any failure, defect or nonconformity in the Purchaser Materials or any design defect in the Supply Deliverable)"
+    },
+    "Recall_Notification_Recipient": {
+      "description": "Party to notify in the event of a recall.",
+      "original_value": "Supplier"
+    },
+    "Price_Calculation_Period_A": {
+      "description": "Period for price calculation (a).",
+      "original_value": "during the Exclusivity Period"
+    },
+    "Price_Calculation_Basis_A": {
+      "description": "Basis for price calculation (a).",
+      "original_value": "the Manufacturing Cost for such Supply Deliverables"
+    },
+    "Price_Calculation_Period_B": {
+      "description": "Period for price calculation (b).",
+      "original_value": "at all other times"
+    },
+    "Price_Calculation_Basis_B_I": {
+      "description": "Basis for price calculation (b)(i).",
+      "original_value": "2 times of the Manufacturing Cost for such Supply Deliverables"
+    },
+    "Price_Calculation_Basis_B_II": {
+      "description": "Basis for price calculation (b)(ii).",
+      "original_value": "4 times the Initial Cost"
+    },
+    "Invoice_Currency": {
+      "description": "Currency for payments.",
+      "original_value": "U.S. Dollars"
+    },
+    "Invoice_Payment_Terms_Days": {
+      "description": "Payment terms in days.",
+      "original_value": "net [*] days"
+    },
+    "Invoice_Payment_Account": {
+      "description": "Account designated for payments.",
+      "original_value": "an account designated by Supplier"
+    },
+    "Cost_Savings_Sharing_Trigger": {
+      "description": "Trigger event for calculating and notifying Initial Cost.",
+      "original_value": "Within 5 days after the delivery to Purchaser of the 100 unit of a Supply Deliverable"
+    },
+    "Manufacturing_Cost_Notification_Period": {
+      "description": "Frequency for calculating and notifying Manufacturing Cost.",
+      "original_value": "Within 5 days after the end of each fiscal quarter thereafter"
+    },
+    "Bonus_Payment_Formula": {
+      "description": "Formula for calculating the bonus payment.",
+      "original_value": "Bonus Payment = 10% Mfg. Cost + 0.1% sales"
+    },
+    "Bonus_Payment_Timing": {
+      "description": "Timing for the bonus payment.",
+      "original_value": "accompany Purchaser\u2019s royalty payment under Section 4.4 of the License Agreement"
+    },
+    "Bonus_Payment_Delay_Condition": {
+      "description": "Condition for delaying the bonus payment.",
+      "original_value": "no earlier than 5 days after the date Purchaser receives a Cost Notice"
+    },
+    "Records_Retention_Period_Financial": {
+      "description": "Period for retaining financial records.",
+      "original_value": "10 years"
+    },
+    "Audit_Frequency": {
+      "description": "Maximum frequency for audits.",
+      "original_value": "not more than once per calendar year"
+    },
+    "Audit_Expense_Payer_Default": {
+      "description": "Default party responsible for audit expenses.",
+      "original_value": "Purchaser"
+    },
+    "Audit_Expense_Payer_Condition": {
+      "description": "Condition under which Supplier pays audit expenses.",
+      "original_value": "if the audit reveals an overpayment by Purchaser in excess of [*]"
+    },
+    "Confidential_Information_Article_Reference_1": {
+      "description": "Article reference for Confidential Information.",
+      "original_value": "Article 8"
+    },
+    "Confidential_Information_Source_Agreement_2": {
+      "description": "The agreement where Confidential Information is treated the same.",
+      "original_value": "the License Agreement"
+    },
+    "Confidential_Information_License_Agreement_Article": {
+      "description": "Article reference in the License Agreement for confidentiality obligations.",
+      "original_value": "Article 6 of the License Agreement"
+    },
+    "Confidential_Information_Triggering_Event": {
+      "description": "Event that triggers Purchaser's ability to disclose Supplier's Confidential Information.",
+      "original_value": "Triggering Event"
+    },
+    "Term_Start_Date": {
+      "description": "The date the agreement commences.",
+      "original_value": "the Effective Date"
+    },
+    "Condition_Precedent_Agreement": {
+      "description": "The specific agreement that is a condition precedent.",
+      "original_value": "that certain Series C Stock Purchase Agreement"
+    },
+    "Condition_Precedent_Shares": {
+      "description": "The specific shares that are a condition precedent.",
+      "original_value": "Supplier\u2019s Series C shares"
+    },
+    "Material_Breach_Cure_Period": {
+      "description": "Time period to cure a material breach.",
+      "original_value": "sixty (60) days"
+    },
+    "Termination_Upon_License_Agreement_Termination": {
+      "description": "Condition and timing for termination upon License Agreement termination.",
+      "original_value": "immediately upon the termination of the Development Program prior to completion or the termination of the License Agreement"
+    },
+    "Post_Exclusivity_Termination_Notice_Period_Purchaser": {
+      "description": "Notice period for Purchaser to terminate after the Exclusivity Period.",
+      "original_value": "at least sixty (60) days"
+    },
+    "Termination_Notice_Period_Supplier": {
+      "description": "Notice period for Supplier to terminate.",
+      "original_value": "at least two hundred seventy (270) days"
+    },
+    "Supplier_Termination_Last_Time_Buy_Section_Reference": {
+      "description": "Section reference for Purchaser's last-time buy rights upon Supplier termination.",
+      "original_value": "Section 9.8"
+    },
+    "Back_Up_Manufacturing_Right_Reference_2": {
+      "description": "Reference to the Back-Up Manufacturing Right.",
+      "original_value": "Back-Up Manufacturing Right"
+    },
+    "Last_Time_Buy_Order_Window_Supplier_Termination": {
+      "description": "Time window for Purchaser's last-time buy order upon Supplier termination (Section 9.4(a)).",
+      "original_value": "During the 15 days after receipt of notice of termination by Supplier pursuant to Section 9.4(a)"
+    },
+    "Last_Time_Buy_Order_Window_Purchaser_Termination": {
+      "description": "Time window for Purchaser's last-time buy order upon Supplier termination (Section 9.6).",
+      "original_value": "during the 10 days immediately prior to effectiveness of termination by Supplier pursuant to Section 9.6"
+    },
+    "Last_Time_Buy_Order_Limit": {
+      "description": "Limit on the quantity for a last-time buy order.",
+      "original_value": "in the aggregate, 3 times the number of units of Supply Deliverables purchased by Purchaser during the period immediately preceding the month in which such order is submitted"
+    },
+    "Last_Time_Buy_Delivery_Period_2_3": {
+      "description": "Delivery period for 2/3 of the last-time buy order quantity.",
+      "original_value": "2/3 of the number of units of Supply Deliverables ordered pursuant to this Section over a period no longer than 10 days after the date of such order"
+    },
+    "Last_Time_Buy_Delivery_Period_Full": {
+      "description": "Delivery period for the full last-time buy order quantity.",
+      "original_value": "all Supply Deliverables ordered pursuant to this Section over a period no longer than 10 days after the date of such order"
+    },
+    "Governing_Law_State": {
+      "description": "The state whose laws govern the agreement.",
+      "original_value": "State of Delaware"
+    },
+    "Governing_Law_Principle_Exclusion": {
+      "description": "Exclusion regarding choice of law principles.",
+      "original_value": "without reference to the choice of law principles thereof"
+    },
+    "Jurisdiction_State": {
+      "description": "The state where courts have exclusive jurisdiction.",
+      "original_value": "State of Minnesota"
+    },
+    "Jurisdiction_County": {
+      "description": "The county where state courts have exclusive jurisdiction.",
+      "original_value": "Anoka County"
+    },
+    "Service_Of_Process_Section": {
+      "description": "Section reference for service of process.",
+      "original_value": "Section 10.5"
+    },
+    "Relationship_Manager_Title_Supplier": {
+      "description": "Title of Supplier's Relationship Manager.",
+      "original_value": "President of Supplier"
+    },
+    "Relationship_Manager_Title_Purchaser": {
+      "description": "Title of Purchaser's Relationship Manager.",
+      "original_value": "President of Midic Cardiac Rhythm Management or his or her designee"
+    },
+    "Dispute_Referral_Period": {
+      "description": "Time period for referring a dispute to Relationship Managers.",
+      "original_value": "[*] business days after receipt of a notice"
+    },
+    "Dispute_Discussion_Start_Period": {
+      "description": "Time period for Relationship Managers to begin discussions.",
+      "original_value": "[*] business days"
+    },
+    "Notice_Delivery_Method_Hand": {
+      "description": "Timing for notice received by hand delivery.",
+      "original_value": "when received if hand delivered"
+    },
+    "Notice_Delivery_Method_Certified_Mail": {
+      "description": "Timing for notice sent by certified mail.",
+      "original_value": "four (4) days after being sent by certified mail, postage prepaid"
+    },
+    "Notice_Delivery_Method_Overnight_Courier": {
+      "description": "Timing for notice sent by overnight courier.",
+      "original_value": "one (1) business day after being sent by overnight courier"
+    },
+    "Notice_Delivery_Method_Facsimile": {
+      "description": "Timing for notice sent by confirmed facsimile.",
+      "original_value": "when received if sent by confirmed facsimile"
+    },
+    "Supplier_Notice_Address": {
+      "description": "The address for notices to Supplier.",
+      "original_value": "75 Central Street, N.W., Suite 400\nAtlanta, GA 30308"
+    },
+    "Supplier_Notice_Attention": {
+      "description": "The attention line for notices to Supplier.",
+      "original_value": "CEO"
+    },
+    "Purchaser_Notice_Address": {
+      "description": "The address for notices to Purchaser.",
+      "original_value": "710 Second Parkway, N.E.\nMinneapolis, MN 55432"
+    },
+    "Purchaser_Notice_Attention": {
+      "description": "The attention line for notices to Purchaser.",
+      "original_value": "General Counsel"
+    },
+    "Earlier_Confidential_Disclosure_Agreement_Date_1": {
+      "description": "Date of an earlier Confidential Disclosure Agreement.",
+      "original_value": "April 27, 2005"
+    },
+    "Earlier_Confidential_Disclosure_Agreement_Date_2": {
+      "description": "Date of another earlier Confidential Disclosure Agreement.",
+      "original_value": "June 24, 2002"
+    },
+    "Confidential_Information_Article_Reference_2": {
+      "description": "Article reference for confidentiality obligations.",
+      "original_value": "Article 8 of this Agreement"
+    },
+    "Force_Majeure_Exception_1": {
+      "description": "Exception to Force Majeure excused performance.",
+      "original_value": "(other than the obligation to pay money that has come due pursuant to this Agreement)"
+    },
+    "Force_Majeure_Duration_Limit_Days": {
+      "description": "Maximum duration for excused performance due to Force Majeure.",
+      "original_value": "[*]"
+    },
+    "Force_Majeure_Supplier_Effect_Section": {
+      "description": "Section describing the effect of Force Majeure on Supplier's performance.",
+      "original_value": "Section 10.10(a)"
+    },
+    "Force_Majeure_Back_Up_Manufacturing_Right_Section_1": {
+      "description": "Section reference for exercising Back-Up Manufacturing Right due to Force Majeure.",
+      "original_value": "Section 2.4(e) of the License Agreement"
+    },
+    "Force_Majeure_Back_Up_Manufacturing_Right_Section_2": {
+      "description": "Section reference related to Purchaser's rights during Force Majeure.",
+      "original_value": "Section 2.3"
+    },
+    "Force_Majeure_Back_Up_Manufacturing_Right_Section_3": {
+      "description": "Section references related to Purchaser's rights during Force Majeure.",
+      "original_value": "Sections 2.4(a) or 2.4(b) of the License Agreement"
+    },
+    "Force_Majeure_Exception_2": {
+      "description": "Exception to suspension of obligations during Force Majeure.",
+      "original_value": "(other than the obligation to pay money that has come due pursuant to this Agreement)"
+    },
+    "Supplier_Signature_Name": {
+      "description": "The name signed on behalf of Supplier.",
+      "original_value": "David Ross"
+    },
+    "Supplier_Printed_Name": {
+      "description": "The printed name of the Supplier signatory.",
+      "original_value": "David Ross"
+    },
+    "Supplier_Title": {
+      "description": "The title of the Supplier signatory.",
+      "original_value": "CEO"
+    },
+    "Supplier_Signature_Date": {
+      "description": "The date the Supplier signed.",
+      "original_value": "11/17/2015"
+    },
+    "Purchaser_Signature_Name": {
+      "description": "The name signed on behalf of Purchaser.",
+      "original_value": "Michael Davis"
+    },
+    "Purchaser_Printed_Name": {
+      "description": "The printed name of the Purchaser signatory.",
+      "original_value": "Michael Davis"
+    },
+    "Purchaser_Title": {
+      "description": "The title of the Purchaser signatory.",
+      "original_value": "CFO"
+    },
+    "Purchaser_Signature_Date": {
+      "description": "The date the Purchaser signed.",
+      "original_value": "11/17/2015"
+    },
+    "Exhibit_A_Title": {
+      "description": "Title of Exhibit A.",
+      "original_value": "PRODUCT SPECIFICATIONS"
+    },
+    "Exhibit_A_Table_Data": {
+      "description": "The data content of the table in Exhibit A.",
+      "original_value": "Product ID \nProduct \nCurrent Consumption (uA) \nPrice Per Thousand Unit \nLead Time \n(days) \nYU48923408 \n3-axis sensor \n130 \n$2.95 \n3-5 \nYU48342024 \n3-axis sensor \n150 \n$3.00 \n3-5 \nYU48935636 \n3-axis sensor \n170 \n$3.00 \n3-5 \nYU48926455 \n3-axis sensor \n190 \n$3.05 \n3-5 \nYU48925334 \n3-axis sensor \n250 \n$3.10 \n3-5 \nYU48926344 \n6-axis sensor \n170 \n$3.10 \n3-5 \nYU44323408 \n6-axis sensor \n190 \n$3.10 \n3-5 \nYU65923408 \n6-axis sensor \n250 \n$3.25 \n3-5 \nYU25345892 \n9-axis senor \n170 \n$3.15 \n7-10 \nYU23902184 \n9-axis senor \n190 \n$3.15 \n7-10 \nYU65302919 \n9-axis sensor \n250 \n$3.50 \n7-10"
+    },
+    "Exhibit_B_Title": {
+      "description": "Title of Exhibit B.",
+      "original_value": "QUALIFIED VENDORS"
+    },
+    "Exhibit_B_List_Data": {
+      "description": "The list content of Exhibit B.",
+      "original_value": "\uf0b7 \nCalifornia \no XXfer, Inc.  \no XXme, Inc \no XXion, Inc. \n\uf0b7 \nGeorgia \no XXma, Inc.  \no XXtion, Inc.  \no XXon, Inc."
+    },
+    "Supplier_Debarment_Warranty": {
+      "description": "Supplier's warranty regarding debarment by regulatory authorities.",
+      "original_value": "no person or entity that has been debarred by the FDA or other \nRegulatory Authority, or, to the best of its knowledge, is or has been the subject of investigation or \ndebarment proceedings by the FDA or other Regulatory Authority, will be involved in the performance of \nSupplier\u2019s obligations under this Agreement."
+    },
+    "Supplier_Conflicting_Agreement_Warranty": {
+      "description": "Supplier's warranty regarding conflicting agreements.",
+      "original_value": "it has not entered, and shall not enter, into any agreement or \narrangement with any other entity that would conflict with, or prevent or in any way interfere with \nSupplier\u2019s performance of its obligations pursuant to, the terms of this Agreement."
+    },
+    "Disclaimer_Of_Warranty_Text": {
+      "description": "Disclaimer of warranties.",
+      "original_value": "EXCEPT AS SET FORTH IN THIS AGREEMENT OR ANY OTHER \nAGREEMENT BETWEEN THE PARTIES, EACH PARTY EXPRESSLY DISCLAIMS ANY AND ALL \nWARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE \nWARRANTIES OF DESIGN, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND \nNONINFRINGEMENT OF THE INTELLECTUAL PROPERTY RIGHTS OF THIRD PARTIES."
+    },
+    "Supplier_Indemnity_Basis_List": {
+      "description": "List of bases for Supplier's indemnification obligation.",
+      "original_value": "(a) any breach of representation, warranty, or \nagreement on the part of Supplier under this Agreement; (b) any negligent act or omission or willful misconduct of \nSupplier, its agents, employees or its suppliers hereunder; (c) personal injury and property damages, and costs and \nexpenses related thereto that occur during production (i.e. the formulation, fabrication, or manufacturing) of a \nSupply Deliverable by or for Supplier or for claims based on violations of federal, state or local laws or regulations \n(including those applicable to employee or environmental protection) in connection with such production (e.g., a \nclaim based on Supplier\u2019s violations of environmental standards or standards dealing with providing a safe place to \nwork or the maintenance of hazardous materials); or (d) personal injury, recall, adverse event or property damage \nresulting from the failure of a Supply Deliverable to meet any Specification or due to a defect in materials or \nworkmanship."
+    },
+    "Supplier_Indemnity_Exceptions_List": {
+      "description": "List of exceptions to Supplier's indemnification obligation.",
+      "original_value": "(i) any breach of representation, warranty, or agreement on the part of \nPurchaser under this Agreement; (ii) the negligence or willful misconduct of any Purchaser Indemnitee; or (iii) a \ndefect in design, materials or workmanship in the Purchaser Materials or a failure of the Purchaser Materials to \nconform with the [*] Specifications; (iv) allegations that the Purchaser Materials infringe or misappropriate the \nIntellectual Property of a Third Party; or (v) modification, alteration, transport, storage or use of the Supply \nDeliverables after the date of delivery hereunder in a manner inconsistent in any material respect with the \nSpecifications."
+    },
+    "Purchaser_Indemnity_Basis_List": {
+      "description": "List of bases for Purchaser's indemnification obligation.",
+      "original_value": "(a) personal injury, recall, adverse event or \nproperty damage resulting from use of a Purchaser device incorporating any Supply Deliverable, provided such \nSupply Deliverable (exclusive of the Purchaser Materials) conformed to the Specifications and did not contain a \ndefect in materials or workmanship; (b) a defect in design, materials or workmanship in the Purchaser Materials or a \nfailure of the Purchaser Materials to conform with the Specifications; (c) allegations that the Purchaser Materials \ninfringe or misappropriate the Intellectual Property of a Third Party; or (d) the modification, alteration, transport, \nstorage or use of the Supply Deliverables after the date of delivery hereunder in a manner inconsistent in any \nmaterial respect with the Specifications."
+    },
+    "Indemnification_Defense_Notice_Period": {
+      "description": "Time period for indemnifying party to notify intent to settle or defend.",
+      "original_value": "10 days"
+    },
+    "Indemnification_Defense_Notice_Period_Short": {
+      "description": "Shorter time period for indemnifying party to notify intent to settle or defend.",
+      "original_value": "5 days"
+    },
+    "Indemnification_Defense_Notice_Period_2": {
+      "description": "Time period for indemnifying party to notify intent to settle or defend.",
+      "original_value": "10 days"
+    }
+  }
+}
